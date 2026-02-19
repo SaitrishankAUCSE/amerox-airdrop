@@ -1,3 +1,4 @@
+
 # How to Build and Deploy a Crypto Airdrop Token
 
 How to Build and Deploy a Crypto Airdrop Token
@@ -117,4 +118,4 @@ We are using RemixID for deploying the contract and generation of the ABI in the
 - [@theblockchaincoders.com](https://www.theblockchaincoders.com/)
 - [@consultancy](https://www.theblockchaincoders.com/consultancy)
 - [@youtube](https://www.youtube.com/@daulathussain)
-# AirDrop-Amero
+# Amerox Airdrop
