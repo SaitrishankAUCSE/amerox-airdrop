@@ -629,13 +629,67 @@ body {
 /* ================= Mobile Layout Fixes ================= */
 @media (max-width: 767.98px) {
 
-  /* Contribution Section Mobile Fixes */
+  /* ---- Global Section Spacing ---- */
+  .contribution-area,
+  .features-area,
+  .features-inner-wrap,
+  .chart-area,
+  .roadmap-area,
+  .team-area,
+  .faq-inner-wrap,
+  .download-area,
+  .blog-area,
+  .contact-area,
+  .blog-details-area {
+    padding: 60px 0 !important;
+  }
+
+  .footer-top {
+    padding: 60px 0 20px !important;
+  }
+
+  .download-content {
+    padding: 0 0 50px !important;
+  }
+
+  /* ---- Hero / Banner ---- */
+  .banner-content .title {
+    font-size: 32px !important;
+    line-height: 1.25 !important;
+  }
+
+  .banner-content p {
+    font-size: 14px !important;
+    margin-bottom: 25px !important;
+  }
+
+  .banner-content .btn {
+    padding: 12px 28px !important;
+    font-size: 14px !important;
+  }
+
+  /* ---- Section Titles ---- */
+  .section-title .title {
+    font-size: 28px !important;
+    line-height: 1.3 !important;
+  }
+
+  .section-title-two.section-title .title {
+    font-size: 28px !important;
+  }
+
+  .section-title .title br,
+  .banner-content .title br {
+    display: none !important;
+  }
+
+  /* ---- Contribution Section ---- */
   .contribution-title .title {
-    font-size: 30px !important;
+    font-size: 28px !important;
   }
 
   .contribution-title .title span {
-    font-size: 34px !important;
+    font-size: 32px !important;
   }
 
   .progress-wrap .list-wrap {
@@ -655,32 +709,154 @@ body {
     text-align: center !important;
   }
 
-  /* Buttons Layout (Fixes the square squashed "Institutional Whitepaper" button) */
   .contribution-btn {
     flex-direction: column !important;
-    gap: 15px !important;
-    margin-top: 35px !important;
+    gap: 12px !important;
+    margin-top: 30px !important;
   }
 
   .contribution-btn .btn {
     width: 100% !important;
     text-align: center !important;
     justify-content: center !important;
-  }
-
-  /* Prevent scroll-to-top from covering buttons unnecessarily */
-  .scroll-top {
-    bottom: 20px !important;
-    right: 20px !important;
-    width: 40px !important;
-    height: 40px !important;
-    line-height: 40px !important;
+    padding: 12px 20px !important;
     font-size: 14px !important;
   }
 
-  /* Inner Pages Banner Title & Shapes Mobile Fixes */
+  /* ---- Feature Cards ---- */
+  .features-item {
+    padding: 24px !important;
+  }
+
+  .features-item-two {
+    padding: 18px 15px !important;
+  }
+
+  .features-content .title {
+    font-size: 20px !important;
+  }
+
+  .features-content-two .title {
+    font-size: 16px !important;
+  }
+
+  /* ---- Chart Section ---- */
+  .chart-wrap .chart {
+    width: 280px !important;
+    height: 280px !important;
+    margin: 0 auto 25px !important;
+  }
+
+  .chart-inner-wrap .right-side-content {
+    margin-left: 0 !important;
+    padding: 0 10px !important;
+  }
+
+  .chart-list .list-wrap li {
+    font-size: 13px !important;
+    padding: 8px 0 !important;
+  }
+
+  /* ---- FAQ Section ---- */
+  .faq-wrap .accordion-button {
+    font-size: 16px !important;
+    padding: 22px 55px 22px 20px !important;
+    line-height: 1.4 !important;
+  }
+
+  .faq-wrap .accordion-body {
+    padding: 0px 20px 30px !important;
+    font-size: 14px !important;
+  }
+
+  .faq-wrap .accordion-button::after {
+    right: 18px !important;
+    top: 22px !important;
+  }
+
+  /* ---- RoadMap ---- */
+  .roadmap-content {
+    padding: 40px 20px 30px !important;
+  }
+
+  .roadmap-content .title {
+    font-size: 18px !important;
+  }
+
+  /* ---- Download Section ---- */
+  .download-inner-wrap {
+    padding: 40px 20px 0 !important;
+  }
+
+  .download-btn-wrap .download-btn img {
+    max-height: 42px !important;
+  }
+
+  .download-list .list-wrap li {
+    font-size: 13px !important;
+  }
+
+  /* ---- Document / Contact Form ---- */
+  .document-form-wrap {
+    padding: 30px 16px 30px !important;
+  }
+
+  .document-wrap {
+    padding: 30px 16px 30px !important;
+  }
+
+  .document-wrap .list-wrap a {
+    padding: 12px 10px !important;
+    font-size: 13px !important;
+  }
+
+  .document-wrap .list-wrap a .icon {
+    width: 80px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .contact-form {
+    padding: 30px 16px !important;
+  }
+
+  .contact-form .title {
+    font-size: 20px !important;
+  }
+
+  /* ---- Footer Widgets ---- */
+  .footer-widget {
+    margin-bottom: 30px !important;
+  }
+
+  .footer-widget .fw-title {
+    font-size: 16px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .footer-widget .list-wrap li a {
+    font-size: 13px !important;
+  }
+
+  .footer-newsletter p {
+    font-size: 13px !important;
+  }
+
+  .copyright-text p {
+    font-size: 12px !important;
+  }
+
+  /* ---- Breadcrumb / Inner Page Banners ---- */
+  .breadcrumb-area {
+    padding: 140px 0 60px !important;
+  }
+
   .breadcrumb-content .title {
-    font-size: 38px !important;
+    font-size: 30px !important;
+  }
+
+  .breadcrumb-content .breadcrumb-item,
+  .breadcrumb-content .breadcrumb-item a {
+    font-size: 13px !important;
   }
 
   .breadcrumb-shape-wrap img:nth-child(1) {
@@ -697,10 +873,67 @@ body {
     opacity: 0.2 !important;
   }
 
-  /* Partners Page Fix for mobile */
-  /* Partners Page Fix for mobile */
+  /* ---- Partners Page ---- */
   .partners-grid-inner {
     padding: 20px !important;
+  }
+
+  /* ---- Scroll-to-top Button ---- */
+  .scroll-top {
+    bottom: 20px !important;
+    right: 15px !important;
+    width: 38px !important;
+    height: 38px !important;
+    line-height: 38px !important;
+    font-size: 13px !important;
+  }
+}
+
+/* ================= Extra Small Phones (≤480px) ================= */
+@media (max-width: 480px) {
+
+  .banner-content .title {
+    font-size: 26px !important;
+  }
+
+  .section-title .title,
+  .section-title-two.section-title .title {
+    font-size: 24px !important;
+  }
+
+  .contribution-title .title {
+    font-size: 24px !important;
+  }
+
+  .contribution-title .title span {
+    font-size: 28px !important;
+  }
+
+  .chart-wrap .chart {
+    width: 240px !important;
+    height: 240px !important;
+  }
+
+  .faq-wrap .accordion-button {
+    font-size: 15px !important;
+    padding: 18px 50px 18px 16px !important;
+  }
+
+  .breadcrumb-content .title {
+    font-size: 26px !important;
+  }
+
+  .breadcrumb-area {
+    padding: 120px 0 50px !important;
+  }
+
+  .download-btn-wrap {
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
+
+  .download-btn-wrap .download-btn img {
+    max-height: 40px !important;
   }
 }
 
