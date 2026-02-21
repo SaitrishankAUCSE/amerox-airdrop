@@ -2,21 +2,21 @@ import React from "react";
 
 const Loader = () => {
   return (
-    <div class="loader-new-css luxury-loader">
-      <div class="cell d-0"></div>
-      <div class="cell d-1"></div>
-      <div class="cell d-2"></div>
+    <div className="loader-new-css luxury-loader">
+      <div className="cell d-0"></div>
+      <div className="cell d-1"></div>
+      <div className="cell d-2"></div>
 
-      <div class="cell d-1"></div>
-      <div class="cell d-2"></div>
+      <div className="cell d-1"></div>
+      <div className="cell d-2"></div>
 
-      <div class="cell d-2"></div>
-      <div class="cell d-3"></div>
+      <div className="cell d-2"></div>
+      <div className="cell d-3"></div>
 
-      <div class="cell d-3"></div>
-      <div class="cell d-4"></div>
+      <div className="cell d-3"></div>
+      <div className="cell d-4"></div>
 
-      <div class="loader-glow"></div>
+      <div className="loader-glow"></div>
     </div>
   );
 };

@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 
 const Follow = ({ name, handleClick }) => {
   return (
-    <div class="input-group-new">
-      <label class="label-new">{name}</label>
+    <div className="input-group-new">
+      <label className="label-new">{name}</label>
       <input
         autocomplete="off"
         onChange={handleClick}
         name={name}
         id={name}
-        class="input-new"
+        className="input-new"
         type="text"
       />
       <div></div>

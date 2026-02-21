@@ -2,20 +2,20 @@ import React from "react";
 
 const Chart = () => {
   return (
-    <div id="chart" class="chart-area pt-140">
-      <div class="container">
-        <div class="chart-inner-wrap">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="chart-wrap">
-                <div class="chart">
+    <div id="chart" className="chart-area pt-140">
+      <div className="container">
+        <div className="chart-inner-wrap">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div className="chart-wrap">
+                <div className="chart">
                   <canvas id="doughnutChart"></canvas>
                 </div>
-                <div class="chart-tab">
-                  <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
+                <div className="chart-tab">
+                  <ul className="nav nav-tabs" id="myTab" role="tablist">
+                    <li className="nav-item" role="presentation">
                       <button
-                        class="nav-link active"
+                        className="nav-link active"
                         id="token-tab"
                         data-bs-toggle="tab"
                         data-bs-target="#token-tab-pane"
@@ -28,16 +28,16 @@ const Chart = () => {
                       </button>
                     </li>
                   </ul>
-                  <div class="tab-content" id="myTabContent">
+                  <div className="tab-content" id="myTabContent">
                     <div
-                      class="tab-pane fade show active"
+                      className="tab-pane fade show active"
                       id="token-tab-pane"
                       role="tabpanel"
                       aria-labelledby="token-tab"
                       tabindex="0"
                     >
-                      <div class="chart-list">
-                        <ul class="list-wrap">
+                      <div className="chart-list">
+                        <ul className="list-wrap">
                           <li>Liquidity & Ecosystem Growth: 30%</li>
                           <li>Treasury / Strategic Reserve: 20%</li>
                           <li>Validators / Node Incentives: 10%</li>
@@ -51,14 +51,14 @@ const Chart = () => {
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="right-side-content">
+            <div className="col-lg-6">
+              <div className="right-side-content">
                 <img src="assets/img/images/amerox_dark_coins.png" alt="" />
                 <p>
                   AMERO X is a decentralized, open-source <br />
                   blockchain with smart contract capability.
                 </p>
-                <ul class="list-wrap">
+                <ul className="list-wrap">
                   <li>
                     <span>1</span>Symbol: AMX
                   </li>

@@ -27,17 +27,17 @@ const AdminAnalytic = () => {
     },
   ];
   return (
-    <section class="features-area-two ">
-      <div class="container">
-        <div class="row justify-content-center admin-card-new">
+    <section className="features-area-two ">
+      <div className="container">
+        <div className="row justify-content-center admin-card-new">
           {features.map((feature, index) => (
-            <div key={index + 5} class="col-lg-4 col-md-6">
-              <div class="features-item-two">
-                <div class="features-img-two">
+            <div key={index + 5} className="col-lg-4 col-md-6">
+              <div className="features-item-two">
+                <div className="features-img-two">
                   <img src={`assets/img/images/${feature.image}`} alt="" />
                 </div>
-                <div class="features-content-two">
-                  <h2 class="title">{feature.title}</h2>
+                <div className="features-content-two">
+                  <h2 className="title">{feature.title}</h2>
                 </div>
               </div>
             </div>

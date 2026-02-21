@@ -180,17 +180,17 @@ const Verify = () => {
   console.log(claimStatus);
 
   return (
-    <section class="contact-area pt-140 pb-140">
-      <div class="container">
-        <div class="contact-info-wrap">
-          <div class="row justify-content-center">
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="contact-info-item">
-                <div class="icon">
+    <section className="contact-area pt-140 pb-140">
+      <div className="container">
+        <div className="contact-info-wrap">
+          <div className="row justify-content-center">
+            <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="contact-info-item">
+                <div className="icon">
                   <BsTwitterX />
                 </div>
-                <div class="content">
-                  <h6 class="title">X </h6>
+                <div className="content">
+                  <h6 className="title">X </h6>
                   <Twitter
                     user={user}
                     handleClick={(e) => handleFormFieldChange("twitterId", e)}
@@ -198,14 +198,14 @@ const Verify = () => {
                 </div>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="contact-info-item">
-                <div class="icon">
+            <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="contact-info-item">
+                <div className="icon">
                   <BsLinkedin />
                 </div>
 
-                <div class="content">
-                  <h6 class="title">Linkedin</h6>
+                <div className="content">
+                  <h6 className="title">Linkedin</h6>
 
                   <Linkedin
                     user={user}
@@ -214,13 +214,13 @@ const Verify = () => {
                 </div>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="contact-info-item">
-                <div class="icon">
+            <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="contact-info-item">
+                <div className="icon">
                   <BsInstagram />
                 </div>
-                <div class="content">
-                  <h6 class="title">Instagram</h6>
+                <div className="content">
+                  <h6 className="title">Instagram</h6>
 
                   <Instagram
                     user={user}
@@ -231,13 +231,13 @@ const Verify = () => {
                 </div>
               </div>
             </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="contact-info-item">
-                <div class="icon">
+            <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="contact-info-item">
+                <div className="icon">
                   <FaUser />
                 </div>
-                <div class="content">
-                  <h6 class="title">Claim Airdrop Info</h6>
+                <div className="content">
+                  <h6 className="title">Claim Airdrop Info</h6>
                   <Follow
                     name={"Name"}
                     handleClick={(e) => handleFormFieldChange("name", e)}
@@ -248,20 +248,20 @@ const Verify = () => {
                   />
 
                   {address != "" && claimStatus == true ? (
-                    <button class="btn margin-btn-new">
+                    <button className="btn margin-btn-new">
                       {loader ? "loading..." : "Already Claimed"}
                     </button>
                   ) : address != "" && claimStatus == false ? (
                     <button
                       onClick={() => CALLING_AIRDROP()}
-                      class="btn margin-btn-new"
+                      className="btn margin-btn-new"
                     >
                       {loader || verifying ? "loading..." : "Claim  Airdrop"}
                     </button>
                   ) : (
                     <button
                       onClick={() => connect()}
-                      class="btn margin-btn-new"
+                      className="btn margin-btn-new"
                     >
                       Connect Wallet
                     </button>
@@ -306,11 +306,11 @@ const Verify = () => {
           }
         `}</style>
 
-        <div class="contact-form-wrap">
-          <div class="row g-0">
-            <div class="col-57 order-0 order-lg-2">
-              <div class="contact-form" style={{ background: "rgba(0, 0, 0, 0.6)", backdropFilter: "blur(10px)", border: "1px solid rgba(255, 215, 0, 0.2)" }}>
-                <h4 class="title">Post Details</h4>
+        <div className="contact-form-wrap">
+          <div className="row g-0">
+            <div className="col-57 order-0 order-lg-2">
+              <div className="contact-form" style={{ background: "rgba(0, 0, 0, 0.6)", backdropFilter: "blur(10px)", border: "1px solid rgba(255, 215, 0, 0.2)" }}>
+                <h4 className="title">Post Details</h4>
                 <div id="contact-form">
                   {/* Step-by-step instructions */}
                   <div style={{ marginBottom: "15px", padding: "12px 15px", background: "rgba(212, 175, 55, 0.1)", borderRadius: "10px", border: "1px solid rgba(212, 175, 55, 0.3)" }}>
@@ -419,15 +419,15 @@ const Verify = () => {
                     </div>
 
                   </div>{/* end grid row */}
-                  <button onClick={() => handleImage()} class="btn">
+                  <button onClick={() => handleImage()} className="btn">
                     Download Image
                   </button>
                 </div>
-                <p class="ajax-response mb-0"></p>
+                <p className="ajax-response mb-0"></p>
               </div>
             </div>
-            <div class="col-43">
-              <div class="contact-map verify-logo-wrapper">
+            <div className="col-43">
+              <div className="contact-map verify-logo-wrapper">
                 <img src="airdrop.png" alt="AMERO X Airdrop" className="verify-big-logo" />
               </div>
             </div>

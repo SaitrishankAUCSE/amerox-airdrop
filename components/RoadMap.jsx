@@ -2,22 +2,22 @@ import React from "react";
 
 const RoadMap = () => {
   return (
-    <section id="roadMap" class="roadmap-area pt-140">
-      <div class="container-fluid p-0">
-        <div class="row g-0">
-          <div class="col-lg-12">
-            <div class="section-title text-center mb-70">
-              <h2 class="title">Our Roadmap</h2>
+    <section id="roadMap" className="roadmap-area pt-140">
+      <div className="container-fluid p-0">
+        <div className="row g-0">
+          <div className="col-lg-12">
+            <div className="section-title text-center mb-70">
+              <h2 className="title">Our Roadmap</h2>
             </div>
           </div>
         </div>
-        <div class="row roadMap-active">
-          <div class="col-lg-4">
-            <div class="roadmap-item">
-              <span class="roadmap-title">End of Q4 2021</span>
-              <div class="roadmap-content">
-                <h4 class="title">
-                  <span class="dot"></span>Research
+        <div className="row roadMap-active">
+          <div className="col-lg-4">
+            <div className="roadmap-item">
+              <span className="roadmap-title">End of Q4 2021</span>
+              <div className="roadmap-content">
+                <h4 className="title">
+                  <span className="dot"></span>Research
                 </h4>
                 <p>
                   SubQuery Builders/Grants Program SQT Network contract internal
@@ -26,12 +26,12 @@ const RoadMap = () => {
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="roadmap-item">
-              <span class="roadmap-title">End of Q4 2021</span>
-              <div class="roadmap-content">
-                <h4 class="title">
-                  <span class="dot"></span>App Beta Test
+          <div className="col-lg-4">
+            <div className="roadmap-item">
+              <span className="roadmap-title">End of Q4 2021</span>
+              <div className="roadmap-content">
+                <h4 className="title">
+                  <span className="dot"></span>App Beta Test
                 </h4>
                 <p>
                   SubQuery Builders/Grants Program SQT Network contract internal
@@ -40,12 +40,12 @@ const RoadMap = () => {
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="roadmap-item">
-              <span class="roadmap-title">End of Q4 2021</span>
-              <div class="roadmap-content">
-                <h4 class="title">
-                  <span class="dot"></span>Token Test
+          <div className="col-lg-4">
+            <div className="roadmap-item">
+              <span className="roadmap-title">End of Q4 2021</span>
+              <div className="roadmap-content">
+                <h4 className="title">
+                  <span className="dot"></span>Token Test
                 </h4>
                 <p>
                   SubQuery Builders/Grants Program SQT Network contract internal
@@ -54,12 +54,12 @@ const RoadMap = () => {
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="roadmap-item">
-              <span class="roadmap-title">End of Q4 2021</span>
-              <div class="roadmap-content">
-                <h4 class="title">
-                  <span class="dot"></span>Alpha Test
+          <div className="col-lg-4">
+            <div className="roadmap-item">
+              <span className="roadmap-title">End of Q4 2021</span>
+              <div className="roadmap-content">
+                <h4 className="title">
+                  <span className="dot"></span>Alpha Test
                 </h4>
                 <p>
                   SubQuery Builders/Grants Program SQT Network contract internal
@@ -68,12 +68,12 @@ const RoadMap = () => {
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="roadmap-item">
-              <span class="roadmap-title">End of Q4 2021</span>
-              <div class="roadmap-content">
-                <h4 class="title">
-                  <span class="dot"></span>Concept
+          <div className="col-lg-4">
+            <div className="roadmap-item">
+              <span className="roadmap-title">End of Q4 2021</span>
+              <div className="roadmap-content">
+                <h4 className="title">
+                  <span className="dot"></span>Concept
                 </h4>
                 <p>
                   SubQuery Builders/Grants Program SQT Network contract internal

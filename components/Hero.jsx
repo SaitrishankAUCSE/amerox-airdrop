@@ -3,15 +3,15 @@ import React from "react";
 const Hero = () => {
   return (
     <section
-      class="banner-area banner-bg luxury-hero"
+      className="banner-area banner-bg luxury-hero"
     >
-      <div class="hero-glow-layer"></div>
+      <div className="hero-glow-layer"></div>
 
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-10">
-            <div class="banner-content text-center reveal">
-              <h2 class="title">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-10">
+            <div className="banner-content text-center reveal">
+              <h2 className="title">
                 AMERO X: The Institutional Standard <br />
                 <span>for Decentralized Capital</span>
               </h2>
@@ -25,15 +25,15 @@ const Hero = () => {
         </div>
       </div>
 
-      <div class="banner-scroll-down">
-        <a href="#contribution" class="section-link">
+      <div className="banner-scroll-down">
+        <a href="#contribution" className="section-link">
           <span></span>
           <span></span>
           <span></span>
         </a>
       </div>
 
-      <div class="banner-shape-wrap">
+      <div className="banner-shape-wrap">
         {/* AMERO Floating Coins */}
         <img src="assets/img/banner/coin1.png" alt="" className="coin-shape coin-1 animate-float" />
         <img src="assets/img/banner/coin2.png" alt="" className="coin-shape coin-2 animate-float" />

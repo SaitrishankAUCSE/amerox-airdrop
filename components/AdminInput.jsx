@@ -2,12 +2,12 @@ import React from "react";
 
 const AdminInput = ({ handleClick, name, placeholder }) => {
   return (
-    <div class="input-group-new">
-      <label class="label-new">{name}</label>
+    <div className="input-group-new">
+      <label className="label-new">{name}</label>
       <input
         onChange={handleClick}
         placeholder={placeholder}
-        class="input-new"
+        className="input-new"
         type="text"
       />
       <div></div>

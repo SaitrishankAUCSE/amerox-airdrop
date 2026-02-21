@@ -70,20 +70,20 @@ const Admin = () => {
   }, [transactionID]);
 
   return (
-    <section class="contact-area pt-140 pb-140">
-      <div class="container">
-        <div class="contact-info-wrap">
-          <div class="row justify-content-center">
+    <section className="contact-area pt-140 pb-140">
+      <div className="container">
+        <div className="contact-info-wrap">
+          <div className="row justify-content-center">
             {/* SET_TOKEN_CONTRACT */}
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="contact-info-item">
-                <div class="icon">
-                  <i class="fas ">
+            <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="contact-info-item">
+                <div className="icon">
+                  <i className="fas ">
                     <BsCloudUploadFill />
                   </i>
                 </div>
-                <div class="content">
-                  <h6 class="title">Token Contract </h6>
+                <div className="content">
+                  <h6 className="title">Token Contract </h6>
                   <AdminInput
                     name={"Token Address"}
                     placeholder={` ${shortenAddress(connectedTokenAddr)}`}
@@ -91,7 +91,7 @@ const Admin = () => {
                   />
                   <button
                     onClick={() => SET_TOKEN_CONTRACT(tokenContract)}
-                    class="btn margin-btn-new"
+                    className="btn margin-btn-new"
                   >
                     Update Token Address
                   </button>
@@ -99,15 +99,15 @@ const Admin = () => {
               </div>
             </div>
             {/* SET_AIRDROP_AMOUNT */}
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="contact-info-item">
-                <div class="icon">
-                  <i class="fas ">
+            <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="contact-info-item">
+                <div className="icon">
+                  <i className="fas ">
                     <BsCloudUploadFill />
                   </i>
                 </div>
-                <div class="content">
-                  <h6 class="title">Airdrop Amount </h6>
+                <div className="content">
+                  <h6 className="title">Airdrop Amount </h6>
                   <AdminInput
                     name={"Airdrop Claim Amount"}
                     placeholder={`${airdropPerUser || 0} Matic`}
@@ -115,7 +115,7 @@ const Admin = () => {
                   />
                   <button
                     onClick={() => SET_AIRDROP_AMOUNT(airdropamount)}
-                    class="btn margin-btn-new"
+                    className="btn margin-btn-new"
                   >
                     Update Clain Airdrop
                   </button>
@@ -123,15 +123,15 @@ const Admin = () => {
               </div>
             </div>
             {/* SET_FEE */}
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="contact-info-item">
-                <div class="icon">
-                  <i class="fas ">
+            <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="contact-info-item">
+                <div className="icon">
+                  <i className="fas ">
                     <BsCloudUploadFill />
                   </i>
                 </div>
-                <div class="content">
-                  <h6 class="title">Airdrop Fee </h6>
+                <div className="content">
+                  <h6 className="title">Airdrop Fee </h6>
                   <AdminInput
                     name={"Airdrop Charge"}
                     placeholder={`${airdropFee || 0} Matic`}
@@ -139,7 +139,7 @@ const Admin = () => {
                   />
                   <button
                     onClick={() => SET_FEE(fee)}
-                    class="btn margin-btn-new"
+                    className="btn margin-btn-new"
                   >
                     Update Fee For Airdrop
                   </button>
@@ -147,15 +147,15 @@ const Admin = () => {
               </div>
             </div>
             {/* WITHDRAW_ETHER */}
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="contact-info-item">
-                <div class="icon">
-                  <i class="fas ">
+            <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="contact-info-item">
+                <div className="icon">
+                  <i className="fas ">
                     <BsCloudUploadFill />
                   </i>
                 </div>
-                <div class="content">
-                  <h6 class="title">Withdraw Ether </h6>
+                <div className="content">
+                  <h6 className="title">Withdraw Ether </h6>
                   <AdminInput
                     name={"Receiving Address"}
                     placeholder={`${contractBalEther || 0} Matic`}
@@ -163,7 +163,7 @@ const Admin = () => {
                   />
                   <button
                     onClick={() => WITHDRAW_ETHER(withdrawEther)}
-                    class="btn margin-btn-new"
+                    className="btn margin-btn-new"
                   >
                     Withdraw Ether
                   </button>
@@ -171,15 +171,15 @@ const Admin = () => {
               </div>
             </div>
             {/* WITHDRAW_TOKENS */}
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="contact-info-item">
-                <div class="icon">
-                  <i class="fas ">
+            <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="contact-info-item">
+                <div className="icon">
+                  <i className="fas ">
                     <BsCloudUploadFill />
                   </i>
                 </div>
-                <div class="content">
-                  <h6 class="title">Withdraw Tokens </h6>
+                <div className="content">
+                  <h6 className="title">Withdraw Tokens </h6>
                   <AdminInput
                     name={"Receiving Address"}
                     handleClick={(e) => handleFormFieldChange("beneficiary", e)}
@@ -190,7 +190,7 @@ const Admin = () => {
                   />
                   <button
                     onClick={() => WITHDRAW_TOKENS(withdrawTokens)}
-                    class="btn margin-btn-new"
+                    className="btn margin-btn-new"
                   >
                     Withdraw Tokens
                   </button>
@@ -198,15 +198,15 @@ const Admin = () => {
               </div>
             </div>
             {/* SINGLE_TRANSAACTION */}
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="contact-info-item">
-                <div class="icon">
-                  <i class="fas ">
+            <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="contact-info-item">
+                <div className="icon">
+                  <i className="fas ">
                     <BsCloudUploadFill />
                   </i>
                 </div>
-                <div class="content">
-                  <h6 class="title">Single Transaction </h6>
+                <div className="content">
+                  <h6 className="title">Single Transaction </h6>
                   <AdminInput
                     name={"Transaction ID"}
                     placeholder={`_Id`}
@@ -214,7 +214,7 @@ const Admin = () => {
                   />
                   <button
                     onClick={() => SINGLE_TRANSAACTION(transactionID)}
-                    class="btn margin-btn-new"
+                    className="btn margin-btn-new"
                   >
                     Single Transaction
                   </button>
@@ -222,15 +222,15 @@ const Admin = () => {
               </div>
             </div>
             {/* Transfer Token */}
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="contact-info-item">
-                <div class="icon">
-                  <i class="fas ">
+            <div className="col-xl-3 col-lg-4 col-md-6">
+              <div className="contact-info-item">
+                <div className="icon">
+                  <i className="fas ">
                     <BsCloudUploadFill />
                   </i>
                 </div>
-                <div class="content">
-                  <h6 class="title">Transfer Token </h6>
+                <div className="content">
+                  <h6 className="title">Transfer Token </h6>
                   <AdminInput
                     name={"To"}
                     placeholder={`address`}
@@ -247,7 +247,7 @@ const Admin = () => {
                   />
                   <button
                     onClick={() => TRANSFER_TOKEN(transfer)}
-                    class="btn margin-btn-new"
+                    className="btn margin-btn-new"
                   >
                     Transfer Token
                   </button>

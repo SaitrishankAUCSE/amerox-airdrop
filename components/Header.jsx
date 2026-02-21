@@ -30,28 +30,28 @@ const Header = () => {
 
   return (
     <header id="header">
-      <div id="sticky-header" class="menu-area transparent-header luxury-header">
-        <div class="container custom-container">
-          <div class="row">
-            <div class="col-12">
-              <div class="menu-wrap">
-                <nav class="menu-nav">
+      <div id="sticky-header" className="menu-area transparent-header luxury-header">
+        <div className="container custom-container">
+          <div className="row">
+            <div className="col-12">
+              <div className="menu-wrap">
+                <nav className="menu-nav">
 
-                  <div class="logo brand-wrap">
+                  <div className="logo brand-wrap">
                     <a href="/" className="brand-link">
                       <img src="/amerox-logo.png" alt="AMERO X" className="brand-logo" />
                       <span className="brand-text">AMERO X</span>
                     </a>
                   </div>
 
-                  <div class="navbar-wrap d-none d-lg-flex">
-                    <ul class="navigation luxury-nav">
+                  <div className="navbar-wrap d-none d-lg-flex">
+                    <ul className="navigation luxury-nav">
                       {menus.map((menu, index) => (
                         <li
-                          class={menu.name == "Home" ? "active" : ""}
+                          className={menu.name == "Home" ? "active" : ""}
                           key={index}
                         >
-                          <a href={`${menu.path}`} class="section-link luxury-link">
+                          <a href={`${menu.path}`} className="section-link luxury-link">
                             {menu.name}
                           </a>
                         </li>
@@ -59,17 +59,17 @@ const Header = () => {
                     </ul>
                   </div>
 
-                  <div class="header-action">
-                    <ul class="list-wrap">
+                  <div className="header-action">
+                    <ul className="list-wrap">
                       {address ? (
-                        <li class="header-login luxury-cta">
+                        <li className="header-login luxury-cta">
                           <a href="/airdrop">
                             {loader ? "loading..." : " Airdrop"}
                             <MdOutlineGeneratingTokens />
                           </a>
                         </li>
                       ) : (
-                        <li class="header-login luxury-cta">
+                        <li className="header-login luxury-cta">
                           <button onClick={() => connect()} className="connect-btn">
                             Connect
                             <MdOutlineGeneratingTokens />
@@ -77,16 +77,16 @@ const Header = () => {
                         </li>
                       )}
 
-                      <li class="offcanvas-menu">
-                        <a class="menu-tigger luxury-icon" onClick={() => setOffcanvasOpen(!offcanvasOpen)} style={{ cursor: 'pointer' }}>
+                      <li className="offcanvas-menu">
+                        <a className="menu-tigger luxury-icon" onClick={() => setOffcanvasOpen(!offcanvasOpen)} style={{ cursor: 'pointer' }}>
                           <RiMenu3Line />
                         </a>
                       </li>
                     </ul>
                   </div>
 
-                  <div class="mobile-nav-toggler luxury-icon">
-                    <i class="fas ">
+                  <div className="mobile-nav-toggler luxury-icon">
+                    <i className="fas ">
                       <RiMenu3Line />
                     </i>
                   </div>
@@ -94,9 +94,9 @@ const Header = () => {
               </div>
 
               {/* Mobile Menu */}
-              <div class="mobile-menu">
-                <nav class="menu-box glass-card">
-                  <div class="close-btn luxury-icon">
+              <div className="mobile-menu">
+                <nav className="menu-box glass-card">
+                  <div className="close-btn luxury-icon">
                     <IoMdClose />
                   </div>
                   <div className="nav-logo brand-wrap">
@@ -106,33 +106,33 @@ const Header = () => {
                     </a>
                   </div>
 
-                  <div class="menu-outer">
-                    <ul class="navigation">
+                  <div className="menu-outer">
+                    <ul className="navigation">
                       {menus.map((menu, index) => (
                         <li
-                          class={menu.name == "Home" ? "active" : ""}
+                          className={menu.name == "Home" ? "active" : ""}
                           key={menu.name}
                         >
-                          <a href={`${menu.path}`} class="section-link">
+                          <a href={`${menu.path}`} className="section-link">
                             {menu.name}
                           </a>
                         </li>
                       ))}
 
                       {address ? (
-                        <li class="header-login">
+                        <li className="header-login">
                           <a href="/airdrop">Airdrop</a>
                         </li>
                       ) : (
-                        <li class="header-login">
+                        <li className="header-login">
                           <button onClick={() => connect()}>Connect</button>
                         </li>
                       )}
                     </ul>
                   </div>
 
-                  <div class="social-links">
-                    <ul class="clearfix list-wrap">
+                  <div className="social-links">
+                    <ul className="clearfix list-wrap">
                       <li>
                         <a href="https://facebook.com/amerox" target="_blank" rel="noopener noreferrer">
                           <TiSocialFacebook />
@@ -140,28 +140,28 @@ const Header = () => {
                       </li>
                       <li>
                         <a href="https://twitter.com/amerox" target="_blank" rel="noopener noreferrer">
-                          <i class="fab">
+                          <i className="fab">
                             <TiSocialTwitter />
                           </i>
                         </a>
                       </li>
                       <li>
                         <a href="https://linkedin.com/company/amerox" target="_blank" rel="noopener noreferrer">
-                          <i class="fab">
+                          <i className="fab">
                             <TiSocialLinkedin />
                           </i>
                         </a>
                       </li>
                       <li>
                         <a href="https://youtube.com/@amerox" target="_blank" rel="noopener noreferrer">
-                          <i class="fab">
+                          <i className="fab">
                             <TiSocialYoutube />
                           </i>
                         </a>
                       </li>
                       <li>
                         <a href="https://github.com/amerox" target="_blank" rel="noopener noreferrer">
-                          <i class="fab">
+                          <i className="fab">
                             <TiSocialGithub />
                           </i>
                         </a>
@@ -171,17 +171,17 @@ const Header = () => {
                 </nav>
               </div>
 
-              <div class="menu-backdrop"></div>
+              <div className="menu-backdrop"></div>
             </div>
           </div>
         </div>
       </div>
 
       {/* Side Panel */}
-      <div class={`extra-info glass-card ${offcanvasOpen ? 'active' : ''}`}>
-        <div class="close-icon menu-close luxury-icon">
+      <div className={`extra-info glass-card ${offcanvasOpen ? 'active' : ''}`}>
+        <div className="close-icon menu-close luxury-icon">
           <button onClick={() => setOffcanvasOpen(false)}>
-            <i class="fas ">
+            <i className="fas ">
               <IoMdClose />
             </i>
           </button>
@@ -194,8 +194,8 @@ const Header = () => {
           </Link>
         </div>
 
-        <div class="side-info mb-30">
-          <div class="contact-list mb-30">
+        <div className="side-info mb-30">
+          <div className="contact-list mb-30">
             <h4>Office Address</h4>
             <p>
               71-75 Shelton Street, Convent Garden <br />
@@ -203,46 +203,46 @@ const Header = () => {
             </p>
           </div>
 
-          <div class="contact-list mb-30">
+          <div className="contact-list mb-30">
             <h4>Phone Number</h4>
             <p>+447438677745</p>
           </div>
 
-          <div class="contact-list mb-30">
+          <div className="contact-list mb-30">
             <h4>Email Address</h4>
             <p>support@amero.io</p>
             <p>contact@amero.io</p>
           </div>
         </div>
 
-        <div class="social-icon-right mt-30">
+        <div className="social-icon-right mt-30">
           <a href="https://www.facebook.com/profile.php?id=61587374589698" target="_blank" rel="noopener noreferrer">
-            <i class="fab">
+            <i className="fab">
               <TiSocialFacebook />
             </i>
           </a>
 
           <a href="https://x.com/AmeroXchain" target="_blank" rel="noopener noreferrer">
-            <i class="fab">
+            <i className="fab">
               <TiSocialTwitter />
             </i>
           </a>
 
           <a href="https://discord.gg/AD4kkTMuJw" target="_blank" rel="noopener noreferrer">
-            <i class="fab">
+            <i className="fab">
               <FaDiscord />
             </i>
           </a>
 
           <a href="https://youtube.com/example" target="_blank" rel="noopener noreferrer">
-            <i class="fab">
+            <i className="fab">
               <TiSocialYoutube />
             </i>
           </a>
         </div>
       </div>
 
-      <div class="offcanvas-overly"></div>
+      <div className="offcanvas-overly"></div>
     </header>
   );
 };

@@ -24,28 +24,28 @@ const Feature = () => {
     },
   ];
   return (
-    <section id="feature" class="features-area pt-140 pb-110">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-10">
-            <div class="section-title text-center mb-70">
-              <h2 class="title">
+    <section id="feature" className="features-area pt-140 pb-110">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-10">
+            <div className="section-title text-center mb-70">
+              <h2 className="title">
                 High-Performance Financial Architecture Designed for Global Scale
               </h2>
             </div>
           </div>
         </div>
-        <div class="row">
+        <div className="row">
           {features.map((feature, index) => (
-            <div key={index + 1} class="col-lg-6">
-              <div class="features-item">
-                <div class="features-content">
-                  <h2 class="title">
+            <div key={index + 1} className="col-lg-6">
+              <div className="features-item">
+                <div className="features-content">
+                  <h2 className="title">
                     <a href="#!">{feature.title}</a>
                   </h2>
                   <p>{feature.description}</p>
                 </div>
-                <div class="features-img">
+                <div className="features-img">
                   <img src={`assets/img/images/${feature.image}`} alt="" />
                 </div>
               </div>

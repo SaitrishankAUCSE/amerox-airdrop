@@ -21,11 +21,11 @@ const linkedin = ({ handleClick, user }) => {
 
   return (
     <>
-      <div class="input-group-new">
-        <label class="label-new">Post Url</label>
+      <div className="input-group-new">
+        <label className="label-new">Post Url</label>
         <input
           onChange={handleClick}
-          class="input-new"
+          className="input-new"
           type="text"
           value={user.linkedInUrl || ''}
           placeholder="Paste LinkedIn Post URL"

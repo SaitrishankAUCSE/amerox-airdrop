@@ -15,11 +15,11 @@ import {
 const Twitter = ({ handleClick, user }) => {
   return (
     <>
-      <div class="input-group-new">
-        <label class="label-new">Post URL</label>
+      <div className="input-group-new">
+        <label className="label-new">Post URL</label>
         <input
           onChange={handleClick}
-          class="input-new"
+          className="input-new"
           type="text"
           value={user.twitterId || ''}
           placeholder="Paste Tweet URL"

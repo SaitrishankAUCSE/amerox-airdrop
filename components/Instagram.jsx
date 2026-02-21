@@ -4,11 +4,11 @@ import { InstagramEmbed } from "react-social-media-embed";
 const Instagram = ({ handleClick, user }) => {
   return (
     <>
-      <div class="input-group-new">
-        <label class="label-new">Post Url</label>
+      <div className="input-group-new">
+        <label className="label-new">Post Url</label>
         <input
           onChange={handleClick}
-          class="input-new"
+          className="input-new"
           type="text"
           value={user.instagramUrl || ''}
           placeholder="Paste Instagram Post URL"

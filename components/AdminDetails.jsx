@@ -3,17 +3,17 @@ import { shortenAddress } from "../Utils/index";
 
 const AdminDetails = ({ transactionDetails, setTransactionDetails }) => {
   return (
-    <section id="contact" class="document-area">
-      <div class="container">
-        <div class="document-inner-wrap">
-          <div class="row">
-            <div class="col-lg-8">
-              <div class="document-form-wrap">
-                <h4 class="title">Transaction ID: {transactionDetails.id} </h4>
+    <section id="contact" className="document-area">
+      <div className="container">
+        <div className="document-inner-wrap">
+          <div className="row">
+            <div className="col-lg-8">
+              <div className="document-form-wrap">
+                <h4 className="title">Transaction ID: {transactionDetails.id} </h4>
                 <div>
-                  <div class="row">
-                    <div class="">
-                      <div class="form-grp">
+                  <div className="row">
+                    <div className="">
+                      <div className="form-grp">
                         <input
                           disabled
                           placeholder={shortenAddress(
@@ -22,21 +22,21 @@ const AdminDetails = ({ transactionDetails, setTransactionDetails }) => {
                         />
                       </div>
                     </div>
-                    <div class="">
-                      <div class="form-grp">
+                    <div className="">
+                      <div className="form-grp">
                         <input
                           disabled
                           placeholder={transactionDetails.email}
                         />
                       </div>
                     </div>
-                    <div class="">
-                      <div class="form-grp">
+                    <div className="">
+                      <div className="form-grp">
                         <input disabled placeholder={transactionDetails.name} />
                       </div>
                     </div>
-                    <div class="">
-                      <div class="form-grp">
+                    <div className="">
+                      <div className="form-grp">
                         <input
                           disabled
                           placeholder={transactionDetails.timestamp}
@@ -45,7 +45,7 @@ const AdminDetails = ({ transactionDetails, setTransactionDetails }) => {
                     </div>
                   </div>
 
-                  <button onClick={() => setTransactionDetails()} class="btn">
+                  <button onClick={() => setTransactionDetails()} className="btn">
                     Close X
                   </button>
                 </div>
