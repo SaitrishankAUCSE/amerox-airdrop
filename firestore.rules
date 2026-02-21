@@ -5,6 +5,10 @@ service cloud.firestore {
       allow read: if false;
       allow write: if true;
     }
+    match /suggestions/{docId} {
+      allow read: if false;
+      allow write: if true;
+    }
     match /{document=**} {
       allow read, write: if false;
     }

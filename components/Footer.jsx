@@ -15,10 +15,10 @@ const Footer = () => {
                   <h4 className="fw-title">Useful Links</h4>
                   <div className="footer-link">
                     <ul className="list-wrap">
-                      <li><a href="#contact">Contact us</a></li>
-                      <li><a href="#features">How it Works</a></li>
+                      <li><a href="/#contact">Contact us</a></li>
+                      <li><a href="/#feature">How it Works</a></li>
                       <li><a href="/airdrop">Create</a></li>
-                      <li><a href="#contribution">Explore</a></li>
+                      <li><a href="/#contribution">Explore</a></li>
                       <li><a href="/token-sale-terms">Terms & Services</a></li>
                     </ul>
                   </div>
@@ -29,11 +29,11 @@ const Footer = () => {
                   <h4 className="fw-title">SOLUTIONS</h4>
                   <div className="footer-link">
                     <ul className="list-wrap">
-                      <li><a href="#contribution">Token Suit</a></li>
-                      <li><a href="#features">Eco-system</a></li>
-                      <li><a href="#chart">Investment</a></li>
+                      <li><a href="/whitepaper">Token Suit</a></li>
+                      <li><a href="/lightpaper">Eco-system</a></li>
+                      <li><a href="/#chart">Investment</a></li>
                       <li><a href="/airdrop">Portal</a></li>
-                      <li><a href="#roadmap">Tokenization</a></li>
+                      <li><a href="/whitepaper">Tokenization</a></li>
                     </ul>
                   </div>
                 </div>
@@ -43,10 +43,10 @@ const Footer = () => {
                   <h4 className="fw-title">Useful Links</h4>
                   <div className="footer-link">
                     <ul className="list-wrap">
-                      <li><a href="#faq">Help Center</a></li>
-                      <li><a href="#features">Partners</a></li>
-                      <li><a href="#contact">Suggestions</a></li>
-                      <li><a href="#roadmap">Blog</a></li>
+                      <li><a href="/help-center">Help Center</a></li>
+                      <li><a href="/partners">Partners</a></li>
+                      <li><a href="/suggestions">Suggestions</a></li>
+                      <li><a href="/blog">Blog</a></li>
                     </ul>
                   </div>
                 </div>

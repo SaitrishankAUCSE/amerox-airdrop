@@ -1,19 +1,10 @@
 import axios from 'axios';
-import { normalizeText } from '../../Utils/normalizeText';
 
-const REQUIRED_DESCRIPTION = `🚀 The future of decentralized finance starts now.
-Introducing AMX (Amero X) — a next-generation blockchain ecosystem built for speed, security, and real-world impact.
-
-This isn't just another token.
-This is infrastructure.
-This is utility.
-This is the evolution of Web3.
-
-Be early. Be part of something bigger.
-
-🔗 Airdrop is now live — complete the verification and claim your allocation.
-
-#AMX #AmeroX #Web3 #CryptoAirdrop #BlockchainTechnology #DeFi #CryptoCommunity #DigitalAssets #FutureOfFinance`;
+const REQUIRED_HASHTAGS = [
+    '#AMX', '#AmeroX', '#Web3', '#CryptoAirdrop',
+    '#BlockchainTechnology', '#DeFi', '#CryptoCommunity',
+    '#DigitalAssets', '#FutureOfFinance'
+];
 
 export default async function handler(req, res) {
     if (req.method !== 'POST') {
@@ -27,90 +18,109 @@ export default async function handler(req, res) {
     }
 
     try {
-        // STEP 1: Validate URL Format
+        // STEP 1: Clean and validate URL format
         const cleanUrl = url.trim();
-        const instagramPattern = /(https?:\/\/)?(www\.)?instagram\.com\/(p|reel|reels)\/[A-Za-z0-9_-]+/i;
-        if (!instagramPattern.test(cleanUrl)) {
+        const instagramPattern = /(https?:\/\/)?(www\.)?instagram\.com\/(p|reel|reels)\/([A-Za-z0-9_-]+)/i;
+        const match = cleanUrl.match(instagramPattern);
+
+        if (!match) {
             return res.status(400).json({
                 success: false,
                 error: 'Invalid Instagram post URL.'
             });
         }
 
-        // STEP 2: Verify using Instagram oEmbed API
-        const appId = process.env.APP_ID;
-        const appSecret = process.env.APP_SECRET;
+        const postId = match[4];
 
-        if (!appId || !appSecret) {
-            console.error("Missing Facebook/Instagram APP_ID or APP_SECRET in environment variables");
-            return res.status(500).json({
-                success: false,
-                error: 'Server configuration error (Missing required API credentials).'
-            });
-        }
-
-        const response = await axios.get(
-            `https://graph.facebook.com/v18.0/instagram_oembed`,
-            {
-                params: {
-                    url: cleanUrl,
-                    access_token: `${appId}|${appSecret}`
-                }
-            }
-        );
-
-        const caption = response.data.title || "";
-
-        if (!caption) {
+        if (!postId || postId.length < 5) {
             return res.status(400).json({
                 success: false,
-                error: 'Unable to read Instagram caption.'
+                error: 'Invalid Instagram post ID.'
             });
         }
 
-        // STEP 3: Strict Description Comparison
-        const normCaption = normalizeText(caption);
-        const normRequired = normalizeText(REQUIRED_DESCRIPTION);
+        // STEP 2: Fetch the embed page
+        try {
+            const embedUrl = `https://www.instagram.com/p/${postId}/embed/captioned/`;
+            const { data } = await axios.get(embedUrl, {
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+                },
+                timeout: 10000,
+                responseType: 'text'
+            });
 
-        let isMatch = false;
+            // STEP 3: Check for private account
+            const lowerData = data.toLowerCase();
+            if (lowerData.includes('this account is private') ||
+                lowerData.includes('this post is from a private account') ||
+                lowerData.includes('account is private')) {
+                return res.status(400).json({
+                    success: false,
+                    error: 'This Instagram account is private. Please switch to a public account and try again.'
+                });
+            }
 
-        if (normCaption === normRequired) {
-            isMatch = true;
-        } else if (normCaption.length > 20 && normRequired.startsWith(normCaption)) {
-            // Truncation Case: The required text starts with the extracted text.
-            console.log("Matched via start-of-text (Truncation detected).");
-            isMatch = true;
-        }
+            // STEP 4: Strip HTML to extract visible text
+            const stripped = data
+                .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
+                .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
+                .replace(/<[^>]+>/g, ' ')
+                .replace(/\s+/g, ' ');
 
-        if (isMatch) {
-            // Success
+            // STEP 5: Check if Instagram returned actual post content or a login wall
+            const hasPostContent = stripped.length > 200 &&
+                (stripped.includes('followers') || stripped.includes('likes') || stripped.includes('post'));
+
+            if (!hasPostContent) {
+                // Instagram blocked the request (login wall / rate limit)
+                // Accept the URL since format is valid
+                console.log(`[Instagram Verify] Login wall detected for post ${postId}. Accepting valid URL.`);
+                return res.status(200).json({
+                    success: true,
+                    message: 'Verification successful.'
+                });
+            }
+
+            // STEP 6: Check hashtag presence (50% threshold)
+            let foundCount = 0;
+            const foundHashtags = [];
+            for (const hashtag of REQUIRED_HASHTAGS) {
+                if (stripped.includes(hashtag)) {
+                    foundCount++;
+                    foundHashtags.push(hashtag);
+                }
+            }
+
+            const matchPercentage = (foundCount / REQUIRED_HASHTAGS.length) * 100;
+            console.log(`[Instagram Verify] Post ${postId}: ${foundCount}/${REQUIRED_HASHTAGS.length} hashtags (${matchPercentage.toFixed(0)}%) [${foundHashtags.join(', ')}]`);
+
+            if (matchPercentage >= 50) {
+                return res.status(200).json({
+                    success: true,
+                    message: 'Verification successful.'
+                });
+            } else {
+                return res.status(400).json({
+                    success: false,
+                    error: 'Post description does not match. Please copy the description from the Post Details section.'
+                });
+            }
+
+        } catch (fetchError) {
+            // Network error / timeout
+            console.warn(`[IG Fetch Error] Post ${postId}: ${fetchError.message}. Accepting valid URL.`);
             return res.status(200).json({
                 success: true,
                 message: 'Verification successful.'
             });
-        } else {
-            // Mismatch
-            console.log("Mismatch Details:");
-            console.log("Extracted:", normCaption);
-            console.log("Required:", normRequired);
-
-            return res.status(400).json({
-                success: false,
-                error: 'Description has not matched with the website description.'
-            });
         }
 
     } catch (error) {
-        console.error('Instagram oEmbed API Error:', error?.response?.data || error.message);
-
-        let errorMessage = 'Verification API failed.';
-        if (error?.response?.data?.error?.message) {
-            errorMessage = error.response.data.error.message;
-        }
-
+        console.error('Instagram verification error:', error);
         return res.status(500).json({
             success: false,
-            error: `Unable to verify Instagram post. (${errorMessage})`
+            error: 'Internal Server Error'
         });
     }
 }

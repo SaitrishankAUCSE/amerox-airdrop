@@ -10,12 +10,12 @@ const Hero = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10">
-            <div className="banner-content text-center reveal">
-              <h2 className="title">
+            <div className="banner-content text-center">
+              <h2 className="title animate-fade-in-up">
                 AMERO X: The Institutional Standard <br />
                 <span>for Decentralized Capital</span>
               </h2>
-              <p>
+              <p className="animate-fade-in-up delay-200">
                 A high-performance hybrid liquidity hub engineered for absolute sovereignty,
                 <br />
                 institutional-grade P2P settlement, and real-yield derivatives.
@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="banner-scroll-down">
+      <div className="banner-scroll-down animate-fade-in-up delay-400">
         <a href="#contribution" className="section-link">
           <span></span>
           <span></span>

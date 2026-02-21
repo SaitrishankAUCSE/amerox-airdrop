@@ -1,6 +1,20 @@
 import React from "react";
+import toast from "react-hot-toast";
 
 const Download = () => {
+  const handleComingSoon = (e) => {
+    e.preventDefault();
+    toast("📱 Mobile app coming soon! Stay tuned.", {
+      icon: "🚀",
+      duration: 3000,
+      style: {
+        background: "#1a1a2e",
+        color: "#EFC455",
+        border: "1px solid rgba(239,196,85,0.3)",
+      },
+    });
+  };
+
   return (
     <section className="download-area pt-130 pb-130">
       <div className="container">
@@ -22,10 +36,10 @@ const Download = () => {
                   </ul>
                 </div>
                 <div className="download-btn-wrap">
-                  <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="download-btn">
+                  <a href="#" onClick={handleComingSoon} className="download-btn">
                     <img src="assets/img/images/download_btn01.png" alt="Download on App Store" />
                   </a>
-                  <a href="https://play.google.com" target="_blank" rel="noopener noreferrer" className="download-btn">
+                  <a href="#" onClick={handleComingSoon} className="download-btn">
                     <img src="assets/img/images/download_btn02.png" alt="Get it on Google Play" />
                   </a>
                 </div>

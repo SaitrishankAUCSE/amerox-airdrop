@@ -336,3 +336,418 @@ body {
   -webkit-text-fill-color: #FFD951 !important;
   background: none !important;
 }
+
+/* ============================================
+   MOBILE RESPONSIVE OVERRIDES
+   ============================================ */
+
+/* Sticky header must have solid background on scroll */
+#sticky-header.sticky-menu,
+.menu-area {
+  background: rgba(5, 5, 5, 0.95) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* Mobile side panel — dark background instead of gold */
+.mobile-menu .menu-box {
+  background: #0a0a0a !important;
+}
+
+.mobile-menu .navigation li>a {
+  color: #fff !important;
+}
+
+.mobile-menu .navigation li>a:hover,
+.mobile-menu .navigation li.current>a {
+  color: #EFC455 !important;
+}
+
+.mobile-menu .navigation li {
+  border-top-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.mobile-menu .close-btn {
+  color: #EFC455 !important;
+}
+
+.mobile-menu .social-links li a {
+  color: #fff !important;
+  border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+.mobile-menu .social-links li a:hover {
+  background: #EFC455 !important;
+  border-color: #EFC455 !important;
+  color: #000 !important;
+}
+
+/* === TABLETS & MOBILE (max 991px) === */
+@media (max-width: 991px) {
+
+  /* Header */
+  .menu-area {
+    padding: 12px 0 !important;
+  }
+
+  .logo img {
+    max-height: 45px;
+  }
+
+  /* Hero banner */
+  .banner-content .title {
+    font-size: 36px !important;
+  }
+
+  .banner-content p {
+    font-size: 14px;
+  }
+
+  /* Verification cards grid */
+  .contact-info-wrap .row {
+    gap: 15px 0;
+  }
+
+  .contact-info-item {
+    padding: 20px 15px !important;
+  }
+
+  /* Post Details section */
+  .contact-form-wrap .col-57,
+  .contact-form-wrap .col-43 {
+    width: 100% !important;
+  }
+
+  .contact-form {
+    padding: 30px 15px !important;
+    border-radius: 12px !important;
+  }
+
+  /* Social media grid in Post Details */
+  .social-media-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+
+  /* Verify logo */
+  .verify-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  .verify-big-logo {
+    max-width: 200px !important;
+    height: auto;
+  }
+
+  /* Footer */
+  .footer-widget {
+    margin-bottom: 25px;
+  }
+}
+
+/* === MOBILE PHONES (max 768px) === */
+@media (max-width: 768px) {
+
+  /* Header tighter */
+  .menu-area {
+    padding: 10px 0 !important;
+  }
+
+  .logo img {
+    max-height: 40px;
+  }
+
+  .mobile-nav-toggler {
+    font-size: 22px;
+  }
+
+  /* Banner */
+  .banner-content .title {
+    font-size: 32px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .banner-content p {
+    font-size: 13px;
+    margin-bottom: 25px !important;
+  }
+
+  /* Section titles */
+  .section-title .title {
+    font-size: 28px !important;
+  }
+
+  /* Verification cards */
+  .contact-info-item {
+    padding: 18px 12px !important;
+    border-radius: 12px;
+  }
+
+  .contact-info-item .icon i,
+  .contact-info-item .icon svg {
+    font-size: 28px;
+  }
+
+  .contact-info-item .content .title {
+    font-size: 18px !important;
+  }
+
+  /* Input fields */
+  .input-new {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .label-new {
+    font-size: 13px;
+  }
+
+  /* Buttons */
+  .btn,
+  .margin-btn-new {
+    padding: 10px 20px !important;
+    font-size: 14px !important;
+  }
+
+  /* Post Details section compact */
+  .contact-form .title {
+    font-size: 20px !important;
+    margin-bottom: 12px;
+  }
+
+  .social-media-grid textarea {
+    min-height: 90px !important;
+    font-size: 10px !important;
+  }
+
+  /* Footer columns */
+  .footer-top .row>[class*="col-"] {
+    margin-bottom: 20px;
+  }
+
+  /* Floating coins smaller on mobile */
+  .coin-shape {
+    display: none;
+  }
+
+  .large-bg-coin {
+    width: 300px;
+    opacity: 0.06;
+  }
+}
+
+/* === SMALL PHONES (max 480px) === */
+@media (max-width: 480px) {
+  .banner-content .title {
+    font-size: 26px !important;
+  }
+
+  .banner-content p {
+    font-size: 12px;
+  }
+
+  /* Cards stack full-width with breathing room */
+  .contact-info-wrap {
+    margin-bottom: 30px !important;
+  }
+
+  .contact-info-item {
+    padding: 15px 10px !important;
+  }
+
+  .contact-info-item .content .title {
+    font-size: 16px !important;
+  }
+
+  /* Section padding reduction */
+  .contact-area {
+    padding: 60px 0 !important;
+  }
+
+  /* Post Details section */
+  .contact-form {
+    padding: 20px 12px !important;
+  }
+
+  .contact-form .title {
+    font-size: 18px !important;
+  }
+
+  /* Footer */
+  .footer-top {
+    padding: 60px 0 20px !important;
+  }
+
+  .copyright-text p {
+    font-size: 12px;
+  }
+}
+
+/* ========== Custom Global Animations ========== */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  opacity: 0;
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.delay-100 {
+  animation-delay: 0.1s;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
+}
+
+.delay-300 {
+  animation-delay: 0.3s;
+}
+
+.delay-400 {
+  animation-delay: 0.4s;
+}
+
+/* ================= Global Fixes ================= */
+/* Fix for absolute positioned glow layers blocking clicks on inner page containers */
+.hero-glow-layer+.container {
+  position: relative;
+  z-index: 1;
+}
+
+/* ================= Mobile Layout Fixes ================= */
+@media (max-width: 767.98px) {
+
+  /* Contribution Section Mobile Fixes */
+  .contribution-title .title {
+    font-size: 30px !important;
+  }
+
+  .contribution-title .title span {
+    font-size: 34px !important;
+  }
+
+  .progress-wrap .list-wrap {
+    justify-content: space-between !important;
+    padding: 0 5px !important;
+  }
+
+  .progress-wrap .list-wrap li {
+    font-size: 11px !important;
+    text-align: center;
+  }
+
+  .progress-title {
+    font-size: 13px !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+    text-align: center !important;
+  }
+
+  /* Buttons Layout (Fixes the square squashed "Institutional Whitepaper" button) */
+  .contribution-btn {
+    flex-direction: column !important;
+    gap: 15px !important;
+    margin-top: 35px !important;
+  }
+
+  .contribution-btn .btn {
+    width: 100% !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  /* Prevent scroll-to-top from covering buttons unnecessarily */
+  .scroll-top {
+    bottom: 20px !important;
+    right: 20px !important;
+    width: 40px !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    font-size: 14px !important;
+  }
+
+  /* Inner Pages Banner Title & Shapes Mobile Fixes */
+  .breadcrumb-content .title {
+    font-size: 38px !important;
+  }
+
+  .breadcrumb-shape-wrap img:nth-child(1) {
+    max-width: 60px !important;
+    top: 5% !important;
+    left: 2% !important;
+    opacity: 0.2 !important;
+  }
+
+  .breadcrumb-shape-wrap img:nth-child(2) {
+    max-width: 80px !important;
+    bottom: 5% !important;
+    right: 5% !important;
+    opacity: 0.2 !important;
+  }
+
+  /* Partners Page Fix for mobile */
+  /* Partners Page Fix for mobile */
+  .partners-grid-inner {
+    padding: 20px !important;
+  }
+}
+
+/* ================= Mobile Header Connect Button Fix ================= */
+@media (max-width: 991.98px) {
+  .header-action {
+    display: flex !important;
+    margin-right: 15px !important;
+  }
+
+  .header-action .btn {
+    padding: 10px 24px !important;
+    font-size: 13px !important;
+  }
+}
+
+/* ================= Suggestions Page Mobile Fixes ================= */
+.suggestion-section {
+  padding: 100px 0;
+  min-height: 80vh;
+  position: relative;
+}
+
+.suggestion-form-box {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  border-radius: 16px;
+  padding: 35px;
+}
+
+@media (max-width: 991.98px) {
+  .suggestion-section {
+    padding: 60px 0;
+  }
+
+  .suggestion-form-box {
+    padding: 20px;
+  }
+
+  .suggestion-mobile-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .suggestion-section h2 {
+    font-size: 28px !important;
+  }
+}

@@ -30,7 +30,7 @@ contract AmeroToken {
     using SafeMath for uint256;
 
     // Token details
-    string public constant name = "Amero X";
+    string public constant name = "AMERO X";
     string public constant symbol = "AMX";
     uint8  public constant decimals = 18;
 

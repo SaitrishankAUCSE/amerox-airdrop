@@ -19,7 +19,7 @@ const NoPage = ({ title }) => {
       <Header />
       <main>
         <Banner
-          title={title || "Go Back"}
+          title={title || "Page Not Found"}
           type={"To"}
           action={"Home Page"}
           path={"/"}

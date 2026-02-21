@@ -82,7 +82,13 @@ export const AirdropContract = async () => {
       provider = new ethers.BrowserProvider(window.ethereum);
     } else {
       const web3modal = new Web3Modal();
-      const connection = await web3modal.connect();
+
+      const connectionPromise = web3modal.connect();
+      const timeoutPromise = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error("Web3Modal connection timeout")), 3000)
+      );
+
+      const connection = await Promise.race([connectionPromise, timeoutPromise]);
       provider = new ethers.BrowserProvider(connection);
     }
 
@@ -108,7 +114,13 @@ export const AmeroTokenContract = async () => {
       provider = new ethers.BrowserProvider(window.ethereum);
     } else {
       const web3modal = new Web3Modal();
-      const connection = await web3modal.connect();
+
+      const connectionPromise = web3modal.connect();
+      const timeoutPromise = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error("Web3Modal connection timeout")), 3000)
+      );
+
+      const connection = await Promise.race([connectionPromise, timeoutPromise]);
       provider = new ethers.BrowserProvider(connection);
     }
 
@@ -134,7 +146,14 @@ export const getBalance = async () => {
       provider = new ethers.BrowserProvider(window.ethereum);
     } else {
       const web3modal = new Web3Modal();
-      const connection = await web3modal.connect();
+
+      // Add a 3-second timeout to prevent infinite hanging on mobile dapps
+      const connectionPromise = web3modal.connect();
+      const timeoutPromise = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error("Web3Modal connection timeout")), 3000)
+      );
+
+      const connection = await Promise.race([connectionPromise, timeoutPromise]);
       provider = new ethers.BrowserProvider(connection);
     }
 

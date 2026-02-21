@@ -5,12 +5,9 @@ import { RiMenu3Line } from "react-icons/ri";
 import { IoMdClose } from "react-icons/io";
 import {
   TiSocialTwitter,
-  TiSocialLinkedin,
   TiSocialYoutube,
-  TiSocialFacebook,
-  TiSocialGithub,
 } from "react-icons/ti";
-import { FaDiscord } from "react-icons/fa";
+import { FaDiscord, FaInstagram } from "react-icons/fa";
 
 //INTERNAL IMPORT
 import { CONTEXT } from "../context/index";
@@ -21,11 +18,11 @@ const Header = () => {
   const [offcanvasOpen, setOffcanvasOpen] = useState(false);
   const menus = [
     { name: "Home", path: "/" },
-    { name: "Contribution", path: "#contribution" },
-    { name: "Feature", path: "#feature" },
-    { name: "AMX Chart", path: "#chart" },
-    { name: "FAQ", path: "#faq" },
-    { name: "Contact", path: "#contact" },
+    { name: "Contribution", path: "/#contribution" },
+    { name: "Feature", path: "/#feature" },
+    { name: "AMX Chart", path: "/#chart" },
+    { name: "FAQ", path: "/#faq" },
+    { name: "Contact", path: "/#contact" },
   ];
 
   return (
@@ -118,51 +115,36 @@ const Header = () => {
                           </a>
                         </li>
                       ))}
-
-                      {address ? (
-                        <li className="header-login">
-                          <a href="/airdrop">Airdrop</a>
-                        </li>
-                      ) : (
-                        <li className="header-login">
-                          <button onClick={() => connect()}>Connect</button>
-                        </li>
-                      )}
                     </ul>
                   </div>
 
                   <div className="social-links">
                     <ul className="clearfix list-wrap">
                       <li>
-                        <a href="https://facebook.com/amerox" target="_blank" rel="noopener noreferrer">
-                          <TiSocialFacebook />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com/amerox" target="_blank" rel="noopener noreferrer">
-                          <i className="fab">
-                            <TiSocialTwitter />
-                          </i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://linkedin.com/company/amerox" target="_blank" rel="noopener noreferrer">
-                          <i className="fab">
-                            <TiSocialLinkedin />
-                          </i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://youtube.com/@amerox" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.youtube.com/@Ameroxsocials" target="_blank" rel="noopener noreferrer">
                           <i className="fab">
                             <TiSocialYoutube />
                           </i>
                         </a>
                       </li>
                       <li>
-                        <a href="https://github.com/amerox" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/amerox_official/" target="_blank" rel="noopener noreferrer">
                           <i className="fab">
-                            <TiSocialGithub />
+                            <FaInstagram />
+                          </i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://discord.gg/AD4kkTMuJw" target="_blank" rel="noopener noreferrer">
+                          <i className="fab">
+                            <FaDiscord />
+                          </i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://x.com/AmeroXchain" target="_blank" rel="noopener noreferrer">
+                          <i className="fab">
+                            <TiSocialTwitter />
                           </i>
                         </a>
                       </li>
@@ -216,15 +198,15 @@ const Header = () => {
         </div>
 
         <div className="social-icon-right mt-30">
-          <a href="https://www.facebook.com/profile.php?id=61587374589698" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/@Ameroxsocials" target="_blank" rel="noopener noreferrer">
             <i className="fab">
-              <TiSocialFacebook />
+              <TiSocialYoutube />
             </i>
           </a>
 
-          <a href="https://x.com/AmeroXchain" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/amerox_official/" target="_blank" rel="noopener noreferrer">
             <i className="fab">
-              <TiSocialTwitter />
+              <FaInstagram />
             </i>
           </a>
 
@@ -234,9 +216,9 @@ const Header = () => {
             </i>
           </a>
 
-          <a href="https://youtube.com/example" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/AmeroXchain" target="_blank" rel="noopener noreferrer">
             <i className="fab">
-              <TiSocialYoutube />
+              <TiSocialTwitter />
             </i>
           </a>
         </div>

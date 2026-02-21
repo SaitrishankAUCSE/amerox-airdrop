@@ -41,7 +41,7 @@ library SafeMath {
 contract AmeroToken {
     using SafeMath for uint256;
 
-    string public name = "Amero X";
+    string public name = "AMERO X";
     string public symbol = "AMX";
     uint8 public decimals = 18;
     uint256 public totalSupply;

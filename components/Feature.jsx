@@ -40,9 +40,7 @@ const Feature = () => {
             <div key={index + 1} className="col-lg-6">
               <div className="features-item">
                 <div className="features-content">
-                  <h2 className="title">
-                    <a href="#!">{feature.title}</a>
-                  </h2>
+                  <h2 className="title">{feature.title}</h2>
                   <p>{feature.description}</p>
                 </div>
                 <div className="features-img">

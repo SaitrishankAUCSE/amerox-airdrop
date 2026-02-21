@@ -70,10 +70,17 @@ export const CONTEXT_Provider = ({ children }) => {
   const checkIfWalletConnected = async () => {
     try {
       if (!window.ethereum) return null;
-      const accounts = await window.ethereum.request({
+
+      // Wrap in a Promise.race to prevent indefinite hanging (common on mobile DApps)
+      const accountsPromise = window.ethereum.request({
         method: "eth_accounts",
       });
 
+      const timeoutPromise = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error("eth_accounts timeout")), 2500)
+      );
+
+      const accounts = await Promise.race([accountsPromise, timeoutPromise]);
       return accounts[0] || null;
     } catch (error) {
       console.log("Check wallet error:", error);

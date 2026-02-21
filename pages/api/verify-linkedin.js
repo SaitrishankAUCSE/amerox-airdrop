@@ -83,10 +83,9 @@ export default async function handler(req, res) {
             const threshold = Math.ceil(expectedHashtags.length / 2);
 
             if (foundHashtags.length < threshold) {
-                const missingHashtags = expectedHashtags.filter(tag => !cleanText.includes(tag)).map(t => t.toUpperCase());
                 return res.status(400).json({
                     success: false,
-                    error: `❌ LinkedIn post verification failed. Your post is missing required hashtags: ${missingHashtags.join(', ')}. Please copy the description from the Post Details section.`
+                    error: 'Post description does not match. Please copy the description from the Post Details section.'
                 });
             }
 

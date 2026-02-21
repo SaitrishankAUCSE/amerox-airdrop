@@ -1,0 +1,3473 @@
+{
+  "summary": {
+    "total_elements_tested": 380,
+    "total_passed": 380,
+    "total_failed": 0,
+    "critical_errors": [
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/brand/logo.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/amerox-logo.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/images/breadcrumb_shape01.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/images/breadcrumb_shape02.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/airdrop.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/documents/doc_whitepaper.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/documents/doc_terms.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/documents/doc_presentation.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/documents/doc_lightpaper.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/images/document_shape.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/images/footer_shape01.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/images/footer_shape02.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/brand/logo.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/amerox-logo.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/images/breadcrumb_shape01.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/images/breadcrumb_shape02.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/airdrop.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/documents/doc_whitepaper.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/documents/doc_terms.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/documents/doc_presentation.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/documents/doc_lightpaper.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/images/document_shape.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/images/footer_shape01.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/images/footer_shape02.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/brand/logo.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/amerox-logo.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/images/breadcrumb_shape01.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/images/breadcrumb_shape02.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/airdrop.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/documents/doc_whitepaper.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/documents/doc_terms.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/documents/doc_presentation.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/documents/doc_lightpaper.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/images/document_shape.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/images/footer_shape01.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/assets/img/images/footer_shape02.png - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/_next/static/chunks/pages/whitepaper-09b5f7ed856855eb.js - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/_next/static/chunks/pages/lightpaper-a23084d2c01d2dd0.js - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/_next/static/chunks/pages/index-406feedd010e5886.js - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/_next/static/chunks/pages/token-sale-terms-4906a8f1074e6345.js - net::ERR_ABORTED",
+      "[https://airdrop.amerox.io/airdrop] Request Failed: https://airdrop.amerox.io/_next/static/chunks/pages/presentation-ecd81895c2462c92.js - net::ERR_ABORTED",
+      "Failed to load https://airdrop.amerox.io/. Status: 304"
+    ]
+  },
+  "results": [
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "HOME",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "CONTRIBUTION",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "FEATURE",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "AMX CHART",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "FAQ",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#faq",
+      "actual_result": "Anchor #faq exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "CONTACT",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "No Text",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Connect to Participate",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Institutional Whitepaper",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Token Distribution",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "What cryptocurrencies can I use to purchase?",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "What is the AMERO X?",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "How can I connect API with my Current Site",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "What is the Payment Method",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "What makes AMERO X better than the rest?",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#",
+      "actual_result": "Clicked successfully",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#",
+      "actual_result": "Clicked successfully",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Send Message",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Whitepaper",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Token Sale Terms",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/token-sale-terms",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Presentation",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/presentation",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Lightpaper",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/lightpaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Download All",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Contact us",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "How it Works",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Create",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Explore",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Terms & Services",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/token-sale-terms",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Token Suit",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Eco-system",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/lightpaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Investment",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Portal",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Tokenization",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Help Center",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/help-center",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Partners",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/partners",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Suggestions",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/suggestions",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "Blog",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/blog",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io",
+      "button_text": "No Text",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "HOME",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "CONTRIBUTION",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "FEATURE",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "AMX CHART",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "FAQ",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#faq",
+      "actual_result": "Anchor #faq exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "CONTACT",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "No Text",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "HOME",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Read Full Article →",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Read More →",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Read More →",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Read More →",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Read More →",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Read More →",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Follow on X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Join Discord",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Contact us",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "How it Works",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Create",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Explore",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Terms & Services",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/token-sale-terms",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Token Suit",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Eco-system",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/lightpaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Investment",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Portal",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Tokenization",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Help Center",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/help-center",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Partners",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/partners",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Suggestions",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/suggestions",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/blog",
+      "button_text": "Blog",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/blog",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "HOME",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "CONTRIBUTION",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "FEATURE",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "AMX CHART",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "FAQ",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#faq",
+      "actual_result": "Anchor #faq exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "CONTACT",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "No Text",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "HOME",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "Submit Suggestion",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "Contact us",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "How it Works",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "Create",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "Explore",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "Terms & Services",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/token-sale-terms",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "Token Suit",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "Eco-system",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/lightpaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "Investment",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "Portal",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "Tokenization",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "Help Center",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/help-center",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "Partners",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/partners",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "Suggestions",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/suggestions",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/suggestions",
+      "button_text": "Blog",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/blog",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "HOME",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "CONTRIBUTION",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "FEATURE",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "AMX CHART",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "FAQ",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#faq",
+      "actual_result": "Anchor #faq exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "CONTACT",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "No Text",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "HOME",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "Get In Touch",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "Read Whitepaper",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "Contact us",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "How it Works",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "Create",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "Explore",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "Terms & Services",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/token-sale-terms",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "Token Suit",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "Eco-system",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/lightpaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "Investment",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "Portal",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "Tokenization",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "Help Center",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/help-center",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "Partners",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/partners",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "Suggestions",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/suggestions",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/partners",
+      "button_text": "Blog",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/blog",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "HOME",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "CONTRIBUTION",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "FEATURE",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "AMX CHART",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "FAQ",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#faq",
+      "actual_result": "Anchor #faq exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "CONTACT",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "No Text",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "HOME",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Getting Started",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/help-center#section-0",
+      "actual_result": "Anchor #section-0 exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Airdrop & Token Claims",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/help-center#section-1",
+      "actual_result": "Anchor #section-1 exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Token Economics & Staking",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/help-center#section-2",
+      "actual_result": "Anchor #section-2 exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Security & Privacy",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/help-center#section-3",
+      "actual_result": "Anchor #section-3 exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Technical Support",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/help-center#section-4",
+      "actual_result": "Anchor #section-4 exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Join Discord",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Follow on X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Contact us",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "How it Works",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Create",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Explore",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Terms & Services",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/token-sale-terms",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Token Suit",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Eco-system",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/lightpaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Investment",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Portal",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Tokenization",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Help Center",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/help-center",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Partners",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/partners",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Suggestions",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/suggestions",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/help-center",
+      "button_text": "Blog",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/blog",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "HOME",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "CONTRIBUTION",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "FEATURE",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "AMX CHART",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "FAQ",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#faq",
+      "actual_result": "Anchor #faq exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "CONTACT",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "No Text",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "CLAIM",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Connect Wallet",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Copy",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Open",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Copy",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Open",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.linkedin.com/feed/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Copy",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Open",
+      "button_type": "link",
+      "expected_action": "Navigate to https://twitter.com/compose/tweet",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Download Image",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Send Message",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Whitepaper",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Token Sale Terms",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/token-sale-terms",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Presentation",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/presentation",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Lightpaper",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/lightpaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Download All",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Contact us",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "How it Works",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Create",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Explore",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Terms & Services",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/token-sale-terms",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Token Suit",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Eco-system",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/lightpaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Investment",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Portal",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Tokenization",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Help Center",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/help-center",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Partners",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/partners",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Suggestions",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/suggestions",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "Blog",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/blog",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/airdrop",
+      "button_text": "No Text",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "HOME",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "CONTRIBUTION",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "FEATURE",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "AMX CHART",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "FAQ",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#faq",
+      "actual_result": "Anchor #faq exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "CONTACT",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "No Text",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "HOME",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "Contact us",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "How it Works",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "Create",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "Explore",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "Terms & Services",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/token-sale-terms",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "Token Suit",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "Eco-system",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/lightpaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "Investment",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "Portal",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "Tokenization",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "Help Center",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/help-center",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "Partners",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/partners",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "Suggestions",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/suggestions",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/lightpaper",
+      "button_text": "Blog",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/blog",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "HOME",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "CONTRIBUTION",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "FEATURE",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "AMX CHART",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "FAQ",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#faq",
+      "actual_result": "Anchor #faq exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "CONTACT",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "No Text",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "HOME",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "Contact us",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "How it Works",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "Create",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "Explore",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "Terms & Services",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/token-sale-terms",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "Token Suit",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "Eco-system",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/lightpaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "Investment",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "Portal",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "Tokenization",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "Help Center",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/help-center",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "Partners",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/partners",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "Suggestions",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/suggestions",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/presentation",
+      "button_text": "Blog",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/blog",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "HOME",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "CONTRIBUTION",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "FEATURE",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "AMX CHART",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "FAQ",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#faq",
+      "actual_result": "Anchor #faq exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "CONTACT",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "No Text",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "HOME",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "Contact us",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "How it Works",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "Create",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "Explore",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "Terms & Services",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/token-sale-terms",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "Token Suit",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "Eco-system",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/lightpaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "Investment",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "Portal",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "Tokenization",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "Help Center",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/help-center",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "Partners",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/partners",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "Suggestions",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/suggestions",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/token-sale-terms",
+      "button_text": "Blog",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/blog",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "HOME",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "CONTRIBUTION",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "FEATURE",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "AMX CHART",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "FAQ",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#faq",
+      "actual_result": "Anchor #faq exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "CONTACT",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "No Text",
+      "button_type": "button",
+      "expected_action": "Trigger Action/Modal/Submit",
+      "actual_result": "Clicked (No navigation)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "AMERO X",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.youtube.com/@Ameroxsocials",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://www.instagram.com/amerox_official/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://discord.gg/AD4kkTMuJw",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "No Text",
+      "button_type": "link",
+      "expected_action": "Navigate to https://x.com/AmeroXchain",
+      "actual_result": "HTTP 403 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "HOME",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "Contact us",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contact",
+      "actual_result": "Anchor #contact exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "How it Works",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#feature",
+      "actual_result": "Anchor #feature exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "Create",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "Explore",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#contribution",
+      "actual_result": "Anchor #contribution exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "Terms & Services",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/token-sale-terms",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "Token Suit",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "Eco-system",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/lightpaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "Investment",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/#chart",
+      "actual_result": "Anchor #chart exists",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "Portal",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/airdrop",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "Tokenization",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/whitepaper",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "Help Center",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/help-center",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "Partners",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/partners",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "Suggestions",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/suggestions",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    },
+    {
+      "page_url": "https://airdrop.amerox.io/whitepaper",
+      "button_text": "Blog",
+      "button_type": "link",
+      "expected_action": "Navigate to https://airdrop.amerox.io/blog",
+      "actual_result": "HTTP 200 (Considered Valid)",
+      "status": "PASS",
+      "error_details": ""
+    }
+  ]
+}
