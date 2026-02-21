@@ -202,7 +202,7 @@ export const CONTEXT_Provider = ({ children }) => {
       setLoader(true);
       const { name, twitterId, linkedInUrl, instagramUrl, email } = user;
 
-      console.log("Switching to Sepolia network...");
+      console.log("Switching to BSC network...");
       await handleNetworkSwitch();
 
       console.log("Checking wallet connection...");
@@ -225,10 +225,6 @@ export const CONTEXT_Provider = ({ children }) => {
       const AIRDROP_CONTRACT = await AirdropContract();
       if (!AIRDROP_CONTRACT) throw new Error("Could not load Airdrop Contract");
 
-      console.log("Fetching fee...");
-      const feeCharge = await AIRDROP_CONTRACT._fee();
-      console.log("Fee is:", feeCharge.toString());
-
       console.log("Sending transaction...");
       const claim = await AIRDROP_CONTRACT.connect(signer).dropTokens(
         name,
@@ -237,7 +233,6 @@ export const CONTEXT_Provider = ({ children }) => {
         instagramUrl,
         email,
         {
-          value: feeCharge.toString(),
           gasLimit: 1000000n,
         }
       );
@@ -456,7 +451,7 @@ export const CONTEXT_Provider = ({ children }) => {
       };
 
       setLoader(false);
-      notifySuccess("Withdraw Ether Successfully");
+      notifySuccess("Transaction Retrieved Successfully");
 
       return transactionData;
     } catch (error) {

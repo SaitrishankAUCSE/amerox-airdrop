@@ -1,6 +1,6 @@
 const { ethers } = require("ethers");
 
-const provider = new ethers.providers.JsonRpcProvider("https://ethereum-sepolia.publicnode.com");
+const provider = new ethers.providers.JsonRpcProvider("https://bsc-dataseed.binance.org/");
 
 const TOKEN_ABI = [
   "function balanceOf(address owner) view returns (uint256)",

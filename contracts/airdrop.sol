@@ -371,7 +371,7 @@ contract Airdrop is Ownable {
     address public _tokenContract;
     uint256 public _airdropAmount;
     // fee 1000000000000000 = 0.005 MATIC and set it 0 if no fees
-    uint256 public _fee = 0.005 ether;
+    uint256 public _fee = 0;
     mapping(uint256 => AirdropInfo) public airdropInfos;
    
 

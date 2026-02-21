@@ -6,32 +6,32 @@ import axios from "axios";
 import airdrop from "./airdrop.json";
 import AmeroToken from "./AmeroToken.json";
 
-export const airdrop_ADDRESS = "0x8be55D5868726172048CC0DA0e1f189cb2de592B";
+export const airdrop_ADDRESS = "0xD88F8D2DD591015A7eeF1240d0f65371642B6469";
 const airdrop_ABI = airdrop.abi;
 
 //AMEROTOKEN
-export const AMEROTOKEN_ADDRESS = "0xeE04ad9EA2ca3Aa6bD7036D33ca21F90dBFd07fF";
+export const AMEROTOKEN_ADDRESS = "0xF38FEc358cca216a55512B315e0a93E212732eF6";
 const AmeroToken_ABI = AmeroToken.abi;
 
 const fetchContract = (signer, ABI, ADDRESS) =>
   new ethers.Contract(ADDRESS, ABI, signer);
 
 const networks = {
-  sepolia: {
-    chainId: `0x${Number(11155111).toString(16)}`,
-    chainName: "Sepolia Test Network",
+  bsc: {
+    chainId: `0x${Number(56).toString(16)}`,
+    chainName: "Binance Smart Chain Mainnet",
     nativeCurrency: {
-      name: "SepoliaETH",
-      symbol: "ETH",
+      name: "BNB",
+      symbol: "BNB",
       decimals: 18,
     },
-    rpcUrls: ["https://rpc.sepolia.org", "https://ethereum-sepolia-rpc.publicnode.com"],
-    blockExplorerUrls: ["https://sepolia.etherscan.io"],
+    rpcUrls: ["https://bsc-dataseed.binance.org/"],
+    blockExplorerUrls: ["https://bscscan.com/"],
   },
 };
 
 export const handleNetworkSwitch = async () => {
-  const networkName = "sepolia";
+  const networkName = "bsc";
   await changeNetwork({ networkName });
 };
 
