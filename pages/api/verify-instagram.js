@@ -1,4 +1,4 @@
-import puppeteer from 'puppeteer';
+import axios from 'axios';
 import { normalizeText } from '../../Utils/normalizeText';
 
 const REQUIRED_DESCRIPTION = `🚀 The future of decentralized finance starts now.
@@ -26,85 +26,51 @@ export default async function handler(req, res) {
         return res.status(400).json({ success: false, error: 'URL is required' });
     }
 
-    let browser = null;
-
     try {
-        // STEP 2: Validate URL (Localhost implementation of Prompt Step 2)
-        const instagramPattern = /^https:\/\/(www\.)?instagram\.com\/(p|reel|reels)\/[A-Za-z0-9_-]+/;
-        if (!instagramPattern.test(url)) {
+        // STEP 1: Validate URL Format
+        const cleanUrl = url.trim();
+        const instagramPattern = /(https?:\/\/)?(www\.)?instagram\.com\/(p|reel|reels)\/[A-Za-z0-9_-]+/i;
+        if (!instagramPattern.test(cleanUrl)) {
             return res.status(400).json({
                 success: false,
                 error: 'Invalid Instagram post URL.'
             });
         }
 
-        // STEP 3: Launch Puppeteer (Localhost "Free" Logic)
-        // Note: For local Next.js, we use standard puppeteer, not @sparticuz/chromium
-        browser = await puppeteer.launch({
-            headless: "new",
-            args: ['--no-sandbox', '--disable-setuid-sandbox']
-        });
+        // STEP 2: Verify using Instagram oEmbed API
+        const appId = process.env.APP_ID;
+        const appSecret = process.env.APP_SECRET;
 
-        const page = await browser.newPage();
-
-        // Step 3: User Agent
-        await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36");
-
-        // Step 3: Navigation
-        await page.goto(url, { waitUntil: "networkidle2", timeout: 30000 });
-
-        // STEP 4: Detect Private Account
-        const pageContent = await page.content();
-        if (pageContent.includes("This Account is Private")) {
-            await browser.close();
-            return res.status(400).json({
+        if (!appId || !appSecret) {
+            console.error("Missing Facebook/Instagram APP_ID or APP_SECRET in environment variables");
+            return res.status(500).json({
                 success: false,
-                error: 'Switch to public account.'
+                error: 'Server configuration error (Missing required API credentials).'
             });
         }
 
-        // STEP 5: Extract Caption
-        let ogDescription = await page.$eval('meta[property="og:description"]', element => element.content).catch(() => null);
+        const response = await axios.get(
+            `https://graph.facebook.com/v18.0/instagram_oembed`,
+            {
+                params: {
+                    url: cleanUrl,
+                    access_token: `${appId}|${appSecret}`
+                }
+            }
+        );
 
-        if (!ogDescription) {
-            await browser.close();
-            console.error("DEBUG: og:description meta tag NOT FOUND on the page.");
-            // Optional: Log page title or partial content to see if we hit a login page
-            const title = await page.title();
-            console.error(`DEBUG: Page Title: ${title}`);
+        const caption = response.data.title || "";
 
+        if (!caption) {
             return res.status(400).json({
                 success: false,
-                error: `Unable to read Instagram caption. (Meta tag missing. Page title: ${title})`
+                error: 'Unable to read Instagram caption.'
             });
         }
 
-        // Parse "username: caption text" (Step 5)
-        const firstColonIndex = ogDescription.indexOf(": ");
-        if (firstColonIndex === -1) {
-            await browser.close();
-            console.error(`DEBUG: Format 'Username: Caption' not found in: "${ogDescription}"`);
-            return res.status(400).json({
-                success: false,
-                error: `Unable to read Instagram caption. (Format mismatch. Substring: ${ogDescription.substring(0, 50)}...)`
-            });
-        }
-
-        const instagramCaption = ogDescription.substring(firstColonIndex + 2).trim();
-
-        // remove standard quotes if present
-        let cleanCaption = instagramCaption;
-        if (cleanCaption.startsWith('"') && cleanCaption.endsWith('"')) {
-            cleanCaption = cleanCaption.slice(1, -1);
-        }
-
-        // STEP 6: Strict Description Comparison
-        const normCaption = normalizeText(cleanCaption);
+        // STEP 3: Strict Description Comparison
+        const normCaption = normalizeText(caption);
         const normRequired = normalizeText(REQUIRED_DESCRIPTION);
-
-        // Strict Match OR Prefix Match (for Truncation)
-        // Instagram truncates og:description to ~150-170 chars.
-        // If the extracted text matches the BEGINNING of the required text, we accept it.
 
         let isMatch = false;
 
@@ -112,26 +78,22 @@ export default async function handler(req, res) {
             isMatch = true;
         } else if (normCaption.length > 20 && normRequired.startsWith(normCaption)) {
             // Truncation Case: The required text starts with the extracted text.
-            // e.g. Required: "Hello World..." Extracted: "Hello W"
             console.log("Matched via start-of-text (Truncation detected).");
             isMatch = true;
         }
 
         if (isMatch) {
-            // CASE 2: Success
-            await browser.close();
+            // Success
             return res.status(200).json({
                 success: true,
                 message: 'Verification successful.'
             });
         } else {
-            // CASE 3: Mismatch
-            // Debugging for local dev
+            // Mismatch
             console.log("Mismatch Details:");
             console.log("Extracted:", normCaption);
             console.log("Required:", normRequired);
 
-            await browser.close();
             return res.status(400).json({
                 success: false,
                 error: 'Description has not matched with the website description.'
@@ -139,11 +101,16 @@ export default async function handler(req, res) {
         }
 
     } catch (error) {
-        if (browser) await browser.close();
-        console.error('Verification Error:', error);
+        console.error('Instagram oEmbed API Error:', error?.response?.data || error.message);
+
+        let errorMessage = 'Verification API failed.';
+        if (error?.response?.data?.error?.message) {
+            errorMessage = error.response.data.error.message;
+        }
+
         return res.status(500).json({
             success: false,
-            error: `Unable to read Instagram caption. (Internal Error: ${error.message})`
+            error: `Unable to verify Instagram post. (${errorMessage})`
         });
     }
 }
