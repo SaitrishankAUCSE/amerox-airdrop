@@ -30,7 +30,7 @@ export default async function handler(req, res) {
 
     try {
         // STEP 2: Validate URL (Localhost implementation of Prompt Step 2)
-        const instagramPattern = /^https:\/\/(www\.)?instagram\.com\/p\/[A-Za-z0-9_-]+\/?$/;
+        const instagramPattern = /^https:\/\/(www\.)?instagram\.com\/(p|reel|reels)\/[A-Za-z0-9_-]+/;
         if (!instagramPattern.test(url)) {
             return res.status(400).json({
                 success: false,
@@ -138,6 +138,7 @@ export default async function handler(req, res) {
             });
         }
 
+    } catch (error) {
         if (browser) await browser.close();
         console.error('Verification Error:', error);
         return res.status(500).json({

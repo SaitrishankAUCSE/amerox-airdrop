@@ -38,10 +38,10 @@ const Header = () => {
                 <nav class="menu-nav">
 
                   <div class="logo brand-wrap">
-                    <Link href="/" className="brand-link">
+                    <a href="/" className="brand-link">
                       <img src="/amerox-logo.png" alt="AMERO X" className="brand-logo" />
                       <span className="brand-text">AMERO X</span>
-                    </Link>
+                    </a>
                   </div>
 
                   <div class="navbar-wrap d-none d-lg-flex">
@@ -63,10 +63,10 @@ const Header = () => {
                     <ul class="list-wrap">
                       {address ? (
                         <li class="header-login luxury-cta">
-                          <Link href="/airdrop">
+                          <a href="/airdrop">
                             {loader ? "loading..." : " Airdrop"}
                             <MdOutlineGeneratingTokens />
-                          </Link>
+                          </a>
                         </li>
                       ) : (
                         <li class="header-login luxury-cta">
@@ -100,10 +100,10 @@ const Header = () => {
                     <IoMdClose />
                   </div>
                   <div className="nav-logo brand-wrap">
-                    <Link href="/" className="brand-link">
+                    <a href="/" className="brand-link">
                       <img src="/airdrop.png" alt="AMERO X" className="brand-logo" />
                       <span className="brand-text">AMERO X</span>
-                    </Link>
+                    </a>
                   </div>
 
                   <div class="menu-outer">
@@ -121,7 +121,7 @@ const Header = () => {
 
                       {address ? (
                         <li class="header-login">
-                          <Link href="/airdrop">Airdrop</Link>
+                          <a href="/airdrop">Airdrop</a>
                         </li>
                       ) : (
                         <li class="header-login">

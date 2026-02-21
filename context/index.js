@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { ethers, Contract } from "ethers";
 import Web3Modal from "web3modal";
 import toast from "react-hot-toast";
-import { promisify } from "util";
 
 //INTERNAL IMPORT
 import {
@@ -277,13 +276,13 @@ export const CONTEXT_Provider = ({ children }) => {
       //GET USER ACCOUNT
       const account = await checkIfWalletConnected();
       const PROVIDER = await web3Provider();
-      const signer = PROVIDER.getSigner();
+      const signer = await PROVIDER.getSigner();
       const AIRDROP_CONTRACT = await AirdropContract();
 
       const transaction = await AIRDROP_CONTRACT.connect(
         signer
       ).setTokenContract(tokenContract, {
-        gasLimit: ethers.hexlify(1000000),
+        gasLimit: 1000000n,
       });
       await transaction.wait();
 
@@ -306,7 +305,7 @@ export const CONTEXT_Provider = ({ children }) => {
       //GET USER ACCOUNT
       const account = await checkIfWalletConnected();
       const PROVIDER = await web3Provider();
-      const signer = PROVIDER.getSigner();
+      const signer = await PROVIDER.getSigner();
       const AIRDROP_CONTRACT = await AirdropContract();
 
       const airdropUpdate = ethers.parseUnits(
@@ -317,7 +316,7 @@ export const CONTEXT_Provider = ({ children }) => {
       const transaction = await AIRDROP_CONTRACT.connect(
         signer
       ).setAirdropAmount(airdropUpdate, {
-        gasLimit: ethers.hexlify(1000000),
+        gasLimit: 1000000n,
       });
       await transaction.wait();
 
@@ -348,7 +347,7 @@ export const CONTEXT_Provider = ({ children }) => {
       const transaction = await AIRDROP_CONTRACT.connect(signer).setFee(
         airdropFee,
         {
-          gasLimit: ethers.hexlify(1000000),
+          gasLimit: 1000000n,
         }
       );
       await transaction.wait();
@@ -379,7 +378,7 @@ export const CONTEXT_Provider = ({ children }) => {
         withdrawTokens.beneficiary,
         withdrawTokens.tokenAddr,
         {
-          gasLimit: ethers.hexlify(1000000),
+          gasLimit: 1000000n,
         }
       );
       await transaction.wait();
@@ -409,7 +408,7 @@ export const CONTEXT_Provider = ({ children }) => {
       const transaction = await AIRDROP_CONTRACT.connect(signer).withdrawEther(
         beneficiary,
         {
-          gasLimit: ethers.hexlify(1000000),
+          gasLimit: 1000000n,
         }
       );
       await transaction.wait();
@@ -481,7 +480,7 @@ export const CONTEXT_Provider = ({ children }) => {
         address,
         transferAmount,
         {
-          gasLimit: ethers.hexlify(1000000),
+          gasLimit: 1000000n,
         }
       );
       await claim.wait();

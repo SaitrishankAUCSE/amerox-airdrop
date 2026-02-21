@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
+import { saveAs } from "file-saver";
 import { BsCloudUploadFill } from "react-icons/bs";
 
 //INTERNAL IMPORT

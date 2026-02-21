@@ -262,7 +262,7 @@ const Document = () => {
                       form.reset();
                     } else {
                       toast.dismiss(loadingToast);
-                      console.error("Submission Error:", error);
+                      console.error("Submission Error:", result);
                       notifyError("Something went wrong. Please try again.");
                     }
                   } catch (error) {
