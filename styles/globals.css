@@ -715,6 +715,12 @@ body {
     padding: 10px 24px !important;
     font-size: 13px !important;
   }
+
+  /* Hide the offcanvas side-panel trigger on mobile —
+     the native .mobile-nav-toggler hamburger handles navigation */
+  .header-action .offcanvas-menu {
+    display: none !important;
+  }
 }
 
 /* ================= Suggestions Page Mobile Fixes ================= */

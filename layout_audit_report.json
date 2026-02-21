@@ -1,0 +1,194 @@
+{
+  "/": {
+    "desktop": {
+      "status": 200,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    },
+    "mobile": {
+      "status": 304,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    }
+  },
+  "/contribution": {
+    "desktop": {
+      "status": 200,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    },
+    "mobile": {
+      "status": 304,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    }
+  },
+  "/airdrop": {
+    "desktop": {
+      "status": 200,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    },
+    "mobile": {
+      "status": 304,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    }
+  },
+  "/blog": {
+    "desktop": {
+      "status": 200,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    },
+    "mobile": {
+      "status": 304,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    }
+  },
+  "/help-center": {
+    "desktop": {
+      "status": 200,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    },
+    "mobile": {
+      "status": 304,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    }
+  },
+  "/partners": {
+    "desktop": {
+      "status": 200,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    },
+    "mobile": {
+      "status": 304,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    }
+  },
+  "/suggestions": {
+    "desktop": {
+      "status": 200,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    },
+    "mobile": {
+      "status": 304,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    }
+  },
+  "/lightpaper": {
+    "desktop": {
+      "status": 200,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    },
+    "mobile": {
+      "status": 304,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    }
+  },
+  "/whitepaper": {
+    "desktop": {
+      "status": 200,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    },
+    "mobile": {
+      "status": 304,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    }
+  },
+  "/token-sale-terms": {
+    "desktop": {
+      "status": 200,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    },
+    "mobile": {
+      "status": 304,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    }
+  },
+  "/presentation": {
+    "desktop": {
+      "status": 200,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    },
+    "mobile": {
+      "status": 304,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    }
+  },
+  "/privacy-policy": {
+    "desktop": {
+      "status": 200,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    },
+    "mobile": {
+      "status": 304,
+      "overflow": false,
+      "jsErrors": [],
+      "layoutErrors": [],
+      "success": true
+    }
+  }
+}
