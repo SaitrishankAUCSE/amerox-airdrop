@@ -12,25 +12,25 @@ export default function MyApp({ Component, pageProps }) {
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>AMERO X Airdrop - Next-Gen Hybrid DEX &amp; Trading Platform</title>
+        <title>AMERO X Airdrop - Next-Generation Blockchain with Hybrid DEX &amp; Trading Platform</title>
         <meta name="description" content="Trade, swap, provide liquidity, earn rewards, copy expert traders, and explore futures — all in one unified Web3 portal." />
 
         {/* Open Graph / Facebook / WhatsApp / Telegram */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="airdrop.amerox.io" />
         <meta property="og:site_name" content="Amerox.io" />
-        <meta property="og:title" content="AMERO X Airdrop - Next-Gen Hybrid DEX & Trading Platform" />
+        <meta property="og:title" content="AMERO X Airdrop - Next-Generation Blockchain with Hybrid DEX & Trading Platform" />
         <meta property="og:description" content="Trade, swap, provide liquidity, earn rewards, copy expert traders, and explore futures — all in one unified Web3 portal." />
-        <meta property="og:image" content="https://airdrop.amerox.io/og-image.png" />
+        <meta property="og:image" content="https://airdrop.amerox.io/og-image.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="airdrop.amerox.io" />
-        <meta name="twitter:title" content="AMERO X Airdrop - Next-Gen Hybrid DEX & Trading Platform" />
+        <meta name="twitter:title" content="AMERO X Airdrop - Next-Generation Blockchain with Hybrid DEX & Trading Platform" />
         <meta name="twitter:description" content="Trade, swap, provide liquidity, earn rewards, copy expert traders, and explore futures — all in one unified Web3 portal." />
-        <meta name="twitter:image" content="https://airdrop.amerox.io/og-image.png" />
+        <meta name="twitter:image" content="https://airdrop.amerox.io/og-image.jpg" />
 
         {/* Favicon */}
         <link rel="icon" href="/amerox-logo.png" />
