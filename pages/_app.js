@@ -17,7 +17,7 @@ export default function MyApp({ Component, pageProps }) {
 
         {/* Open Graph / Facebook / WhatsApp / Telegram */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="airdrop.amerox.io" />
+        <meta property="og:url" content="https://airdrop.amerox.io/" />
         <meta property="og:site_name" content="Amerox.io" />
         <meta property="og:title" content="AMERO X Airdrop - Next-Generation Blockchain with Hybrid DEX & Trading Platform" />
         <meta property="og:description" content="Trade, swap, provide liquidity, earn rewards, copy expert traders, and explore futures — all in one unified Web3 portal." />
@@ -27,7 +27,7 @@ export default function MyApp({ Component, pageProps }) {
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="airdrop.amerox.io" />
+        <meta name="twitter:url" content="https://airdrop.amerox.io/" />
         <meta name="twitter:title" content="AMERO X Airdrop - Next-Generation Blockchain with Hybrid DEX & Trading Platform" />
         <meta name="twitter:description" content="Trade, swap, provide liquidity, earn rewards, copy expert traders, and explore futures — all in one unified Web3 portal." />
         <meta name="twitter:image" content="https://airdrop.amerox.io/og-image.jpg" />
