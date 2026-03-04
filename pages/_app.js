@@ -21,16 +21,16 @@ export default function MyApp({ Component, pageProps }) {
         <meta property="og:site_name" content="Amerox.io" />
         <meta property="og:title" content="AMERO X Airdrop - Next-Gen Blockchain with Hybrid DEX & Trading Platform" />
         <meta property="og:description" content="Trade, swap, provide liquidity, earn rewards, copy expert traders, and explore futures — all in one unified Web3 portal." />
-        <meta property="og:image" content="https://airdrop.amerox.io/og-img-v16.jpg?v=16" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
+        <meta property="og:image" content="https://airdrop.amerox.io/og-img-v17.jpg?v=17" />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="800" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://airdrop.amerox.io/" />
         <meta name="twitter:title" content="AMERO X Airdrop - Next-Gen Blockchain with Hybrid DEX & Trading Platform" />
         <meta name="twitter:description" content="Trade, swap, provide liquidity, earn rewards, copy expert traders, and explore futures — all in one unified Web3 portal." />
-        <meta name="twitter:image" content="https://airdrop.amerox.io/og-img-v16.jpg?v=16" />
+        <meta name="twitter:image" content="https://airdrop.amerox.io/og-img-v17.jpg?v=17" />
 
         {/* Favicon */}
         <link rel="icon" href="/amerox-logo.png" />

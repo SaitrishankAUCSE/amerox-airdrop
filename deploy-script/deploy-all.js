@@ -29,6 +29,7 @@ const files = [
     'pages/api/verify-linkedin.js', 'pages/api/verify-tweet.js',
     'pages/api/suggestions.js',
     'context/index.js', 'Utils/index.js', 'Utils/normalizeText.js',
+    'public/ameroxnewlogo.png', 'public/og-img-v17.jpg',
 ];
 
 conn.on('ready', () => {
