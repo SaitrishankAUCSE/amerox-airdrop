@@ -5023,6 +5023,37 @@ textarea:focus {
     /* Reduce space between logo and text */
 }
 
+/* Brand text logo (replaces old AMERO X text span) */
+.brand-text-logo {
+    /* Prevent the logo image from inheriting coin's flip animation */
+    animation: none !important;
+    /* Remove any global img filter */
+    filter: none !important;
+}
+
+/* Force menu-nav to stay in a single row */
+.menu-nav {
+    flex-wrap: nowrap !important;
+}
+
+/* Constrain the logo area so the header doesn't expand */
+.menu-area .logo.brand-wrap {
+    max-height: 80px;
+    overflow: visible;
+    flex-shrink: 0;
+}
+
+.menu-area .logo.brand-wrap .brand-link {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    overflow: visible;
+}
+
+.menu-area .logo.brand-wrap .brand-text-logo {
+    max-height: 80px;
+}
+
 /* ================= REFERENCE NAVBAR STYLING ================= */
 /* Dark gradient header background */
 .menu-area.transparent-header {

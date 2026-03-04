@@ -37,7 +37,7 @@ const Header = () => {
                   <div className="logo brand-wrap">
                     <a href="/" className="brand-link">
                       <img src="/amerox-logo.png" alt="AMERO X" className="brand-logo" />
-                      <span className="brand-text">AMERO X</span>
+                      <img src="/ameroxnewlogo.png" alt="AMERO X" className="brand-text-logo" style={{ height: '90px', width: 'auto' }} />
                     </a>
                   </div>
 
@@ -59,14 +59,14 @@ const Header = () => {
                   <div className="header-action">
                     <ul className="list-wrap">
                       {address ? (
-                        <li className="header-login luxury-cta">
+                        <li className="header-login luxury-cta d-none d-lg-flex">
                           <a href="/airdrop">
                             {loader ? "loading..." : " Airdrop"}
                             <MdOutlineGeneratingTokens />
                           </a>
                         </li>
                       ) : (
-                        <li className="header-login luxury-cta">
+                        <li className="header-login luxury-cta d-none d-lg-flex">
                           <button onClick={() => connect()} className="connect-btn">
                             Connect
                             <MdOutlineGeneratingTokens />
@@ -82,7 +82,7 @@ const Header = () => {
                     </ul>
                   </div>
 
-                  <div className="mobile-nav-toggler luxury-icon">
+                  <div className="mobile-nav-toggler luxury-icon" style={{ marginLeft: '15px' }}>
                     <i className="fas ">
                       <RiMenu3Line />
                     </i>
@@ -99,7 +99,7 @@ const Header = () => {
                   <div className="nav-logo brand-wrap">
                     <a href="/" className="brand-link">
                       <img src="/airdrop.png" alt="AMERO X" className="brand-logo" />
-                      <span className="brand-text">AMERO X</span>
+                      <img src="/ameroxnewlogo.png" alt="AMERO X" className="brand-text-logo" style={{ height: '70px', width: 'auto' }} />
                     </a>
                   </div>
 
@@ -115,6 +115,26 @@ const Header = () => {
                           </a>
                         </li>
                       ))}
+                    </ul>
+                  </div>
+
+                  <div className="header-action mobile-connect-action" style={{ padding: '0 20px', marginTop: '20px' }}>
+                    <ul className="list-wrap" style={{ display: 'block', width: '100%' }}>
+                      {address ? (
+                        <li className="header-login luxury-cta" style={{ display: 'block', width: '100%' }}>
+                          <a href="/airdrop" style={{ width: '100%', justifyContent: 'center' }}>
+                            {loader ? "loading..." : " Airdrop"}
+                            <MdOutlineGeneratingTokens />
+                          </a>
+                        </li>
+                      ) : (
+                        <li className="header-login luxury-cta" style={{ display: 'block', width: '100%' }}>
+                          <button onClick={() => connect()} className="connect-btn" style={{ width: '100%', justifyContent: 'center' }}>
+                            Connect
+                            <MdOutlineGeneratingTokens />
+                          </button>
+                        </li>
+                      )}
                     </ul>
                   </div>
 
@@ -172,7 +192,7 @@ const Header = () => {
         <div className="logo-side mb-30 brand-wrap">
           <Link href="/" className="brand-link">
             <img src="/airdrop.png" alt="AMERO X" className="brand-logo" />
-            <span className="brand-text">AMERO X</span>
+            <img src="/ameroxnewlogo.png" alt="AMERO X" className="brand-text-logo" style={{ height: '70px', width: 'auto' }} />
           </Link>
         </div>
 

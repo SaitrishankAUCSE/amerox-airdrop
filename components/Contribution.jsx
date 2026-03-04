@@ -38,15 +38,6 @@ const Contribution = () => {
               </h6>
             </div>
             <div className="contribution-btn">
-              {address ? (
-                <Link href="/airdrop" className="btn">
-                  Participate in Protocol
-                </Link>
-              ) : (
-                <button onClick={() => connect()} className="btn">
-                  Connect to Participate
-                </button>
-              )}
               <Link href="/whitepaper" className="btn btn-two">
                 Institutional Whitepaper
               </Link>

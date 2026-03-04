@@ -939,20 +939,28 @@ body {
 
 /* ================= Mobile Header Connect Button Fix ================= */
 @media (max-width: 991.98px) {
+
+  /* Hide the header Connect button in the top bar */
+  .header-action .header-login {
+    display: none !important;
+  }
+
+  /* Ensure the menu nav spreads its children (Logo left, Toggler right) */
+  .menu-nav {
+    justify-content: space-between !important;
+  }
+
+  /* Style the mobile toggler to appear on the right */
+  .mobile-nav-toggler {
+    display: flex !important;
+    margin-left: auto !important;
+    font-size: 26px !important;
+    color: #FFD951 !important;
+  }
+
   .header-action {
     display: flex !important;
-    margin-right: 15px !important;
-  }
-
-  .header-action .btn {
-    padding: 10px 24px !important;
-    font-size: 13px !important;
-  }
-
-  /* Hide the offcanvas side-panel trigger on mobile —
-     the native .mobile-nav-toggler hamburger handles navigation */
-  .header-action .offcanvas-menu {
-    display: none !important;
+    margin-left: 0 !important;
   }
 }
 
