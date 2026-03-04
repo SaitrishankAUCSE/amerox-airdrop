@@ -212,8 +212,8 @@ const Header = () => {
 
           <div className="contact-list mb-30">
             <h4>Email Address</h4>
-            <p>support@amero.io</p>
-            <p>contact@amero.io</p>
+            <p>support@amerox.io</p>
+            <p>contact@amerox.io</p>
           </div>
         </div>
 
