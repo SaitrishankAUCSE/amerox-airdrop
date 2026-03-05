@@ -9,6 +9,7 @@ conn.on('ready', () => {
     git clone https://github.com/SaitrishankAUCSE/amerox-airdrop.git amerox-temp
     cp -r amerox-temp/components/* amerox/components/
     cp -r amerox-temp/pages/* amerox/pages/
+    cp -r amerox-temp/styles/* amerox/styles/
     cp amerox-temp/fix-classes.js amerox/
     rm -rf amerox-temp
     cd amerox

@@ -998,3 +998,825 @@ body {
     font-size: 28px !important;
   }
 }
+
+/* ==============================================================
+   COMPREHENSIVE MOBILE RESPONSIVENESS
+   CSS-only — appended at the end so desktop rules stay intact.
+   Breakpoints: 768px · 480px · 360px
+   ============================================================== */
+
+/* ---- Prevent horizontal scroll globally ---- */
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* ========== TABLETS & SMALL LAPTOPS (≤768px) ========== */
+@media (max-width: 768px) {
+
+  /* ---- Sleek Mobile Header Buttons ---- */
+  .menu-nav {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  .menu-nav>.header-action {
+    display: flex !important;
+    align-items: center !important;
+    margin-right: 12px !important;
+  }
+
+  .menu-nav>.header-action .offcanvas-menu {
+    display: none !important;
+  }
+
+  .menu-nav>.header-action .header-login {
+    display: flex !important;
+  }
+
+  .menu-nav>.header-action .header-login a,
+  .menu-nav>.header-action .header-login button {
+    padding: 0 16px !important;
+    height: 38px !important;
+    min-height: 38px !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    border-radius: 30px !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+    white-space: nowrap !important;
+  }
+
+  .menu-nav>.header-action .header-login svg {
+    font-size: 16px !important;
+  }
+
+  .menu-area .mobile-nav-toggler {
+    width: 44px !important;
+    height: 44px !important;
+    background: transparent !important;
+    border: 1px solid rgba(212, 175, 55, 0.4) !important;
+    border-radius: 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    transition: all 0.3s ease !important;
+  }
+
+  .menu-area .mobile-nav-toggler:active {
+    background: rgba(212, 175, 55, 0.1) !important;
+  }
+
+  .menu-area .mobile-nav-toggler i,
+  .menu-area .mobile-nav-toggler svg {
+    color: #EFC455 !important;
+    font-size: 24px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* ---- Global tap-friendly buttons ---- */
+  .btn,
+  .margin-btn-new,
+  .connect-btn,
+  .header-login a,
+  .download-btn,
+  button[type="submit"] {
+    min-height: 44px !important;
+    touch-action: manipulation;
+  }
+
+  /* ---- Images fluid ---- */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ---- Hero Banner ---- */
+  .banner-area {
+    padding: 120px 0 60px !important;
+  }
+
+  .banner-content .title {
+    font-size: 28px !important;
+    line-height: 1.25 !important;
+  }
+
+  .banner-content .title br {
+    display: none !important;
+  }
+
+  .banner-content .title span {
+    display: inline !important;
+  }
+
+  .banner-content p {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+  }
+
+  .banner-content p br {
+    display: none !important;
+  }
+
+  .banner-scroll-down {
+    margin-top: 20px !important;
+  }
+
+  /* ---- Contribution Section ---- */
+  .contribution-area {
+    padding: 60px 0 !important;
+  }
+
+  .contribution-title .title {
+    font-size: 28px !important;
+    line-height: 1.3 !important;
+  }
+
+  .contribution-title .title span {
+    font-size: 32px !important;
+  }
+
+  .contribution-btn {
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+
+  .contribution-btn .btn {
+    width: 100% !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  .progress-title {
+    font-size: 13px !important;
+    flex-direction: column !important;
+    gap: 6px !important;
+    text-align: center !important;
+  }
+
+  .progress-wrap .list-wrap {
+    padding: 0 5px !important;
+  }
+
+  .progress-wrap .list-wrap li {
+    font-size: 12px !important;
+    text-align: center;
+  }
+
+  /* ---- Feature Cards ---- */
+  .features-area {
+    padding: 60px 0 !important;
+  }
+
+  .features-item {
+    padding: 22px 18px !important;
+    margin-bottom: 15px;
+  }
+
+  .features-content .title {
+    font-size: 18px !important;
+  }
+
+  .features-content p {
+    font-size: 13px !important;
+  }
+
+  .features-img img {
+    max-width: 70px !important;
+    height: auto !important;
+  }
+
+  /* ---- FeatureTwo Section ---- */
+  .features-inner-wrap {
+    padding: 60px 0 !important;
+  }
+
+  .features-item-two {
+    padding: 16px 14px !important;
+    margin-bottom: 12px;
+  }
+
+  .features-content-two .title {
+    font-size: 15px !important;
+  }
+
+  .section-title-two.section-title .title {
+    font-size: 22px !important;
+    line-height: 1.4 !important;
+  }
+
+  .section-title-two.section-title .title img {
+    max-width: 40px !important;
+    height: auto !important;
+    vertical-align: middle !important;
+  }
+
+  /* ---- Chart / Doughnut Section ---- */
+  .chart-area {
+    padding: 60px 0 !important;
+  }
+
+  .chart-wrap .chart {
+    width: 260px !important;
+    height: 260px !important;
+    margin: 0 auto 20px !important;
+  }
+
+  .chart-inner-wrap .right-side-content {
+    margin-left: 0 !important;
+    padding: 0 10px !important;
+    text-align: center !important;
+  }
+
+  .chart-inner-wrap .right-side-content img {
+    max-width: 200px !important;
+    margin: 0 auto 15px !important;
+    display: block !important;
+  }
+
+  .chart-inner-wrap .right-side-content p {
+    text-align: left !important;
+  }
+
+  .chart-inner-wrap .right-side-content p br {
+    display: none !important;
+  }
+
+  .chart-list .list-wrap li {
+    font-size: 13px !important;
+    padding: 6px 0 !important;
+    width: 100% !important;
+  }
+
+  .chart-tab .nav-link {
+    font-size: 14px !important;
+    padding: 8px 16px !important;
+  }
+
+  /* ---- FAQ Section ---- */
+  .faq-inner-wrap {
+    padding: 60px 0 !important;
+  }
+
+  .faq-wrap .accordion-button {
+    font-size: 16px !important;
+    padding: 18px 50px 18px 18px !important;
+    line-height: 1.4 !important;
+  }
+
+  .faq-wrap .accordion-body {
+    padding: 0 18px 25px !important;
+    font-size: 14px !important;
+  }
+
+  .faq-wrap .accordion-button::after {
+    right: 16px !important;
+  }
+
+  .faq-arrow-icon {
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  /* ---- Download Section ---- */
+  .download-area {
+    padding: 60px 0 !important;
+  }
+
+  .download-inner-wrap {
+    padding: 40px 20px 0 !important;
+  }
+
+  .download-content {
+    padding: 0 0 40px !important;
+  }
+
+  .section-title .title {
+    font-size: 24px !important;
+    line-height: 1.3 !important;
+  }
+
+  .download-btn-wrap {
+    gap: 10px !important;
+  }
+
+  .download-btn-wrap .download-btn img {
+    max-height: 42px !important;
+  }
+
+  .download-list .list-wrap li {
+    font-size: 13px !important;
+  }
+
+  .download-img img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* ---- Document / Contact Section ---- */
+  .document-area {
+    padding: 60px 0 !important;
+  }
+
+  .document-inner-wrap {
+    padding: 0 !important;
+  }
+
+  .document-form-wrap {
+    padding: 25px 16px !important;
+  }
+
+  .document-form-wrap .title {
+    font-size: 20px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .document-wrap {
+    padding: 25px 16px !important;
+    margin-top: 20px;
+  }
+
+  .document-wrap .title {
+    font-size: 20px !important;
+  }
+
+  .document-wrap .list-wrap a {
+    padding: 10px 8px !important;
+    font-size: 13px !important;
+  }
+
+  .document-wrap .list-wrap a .icon {
+    width: 70px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .document-wrap .list-wrap a .icon img {
+    max-width: 80px !important;
+  }
+
+  .contact-form {
+    padding: 25px 16px !important;
+  }
+
+  .contact-form .title {
+    font-size: 18px !important;
+  }
+
+  .form-grp input,
+  .form-grp textarea {
+    font-size: 14px !important;
+  }
+
+  /* ---- Verify / Airdrop Cards ---- */
+  .contact-info-wrap {
+    margin-bottom: 20px !important;
+  }
+
+  .contact-info-wrap .row {
+    gap: 12px 0 !important;
+  }
+
+  .contact-info-item {
+    padding: 18px 14px !important;
+    border-radius: 12px !important;
+  }
+
+  .contact-info-item .icon i,
+  .contact-info-item .icon svg {
+    font-size: 26px !important;
+  }
+
+  .contact-info-item .content .title {
+    font-size: 16px !important;
+  }
+
+  /* ---- Social Media Grid (Post Details) ---- */
+  .social-media-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+
+  .social-media-grid textarea {
+    min-height: 80px !important;
+    font-size: 10px !important;
+  }
+
+  /* ---- Verify Logo ---- */
+  .verify-logo-wrapper {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 25px 0 !important;
+  }
+
+  .verify-big-logo {
+    max-width: 200px !important;
+    height: auto !important;
+  }
+
+  /* ---- Contact form two-col ---- */
+  .contact-form-wrap .col-57,
+  .contact-form-wrap .col-43 {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* ---- Breadcrumb / Inner Page Banner ---- */
+  .breadcrumb-area,
+  .breadcrumb-bg {
+    padding: 130px 0 50px !important;
+  }
+
+  .breadcrumb-content .title {
+    font-size: 28px !important;
+  }
+
+  .breadcrumb-content .breadcrumb-item,
+  .breadcrumb-content .breadcrumb-item a {
+    font-size: 12px !important;
+  }
+
+  /* ---- Inner Page Sections (blog, whitepaper, help-center, etc.) ---- */
+  .document-page-area,
+  section[style*="padding: '100px 0'"],
+  section[style*="padding: '100px 0 80px'"] {
+    padding: 70px 0 !important;
+  }
+
+  .document-content h1 {
+    font-size: 24px !important;
+    line-height: 1.3 !important;
+  }
+
+  .document-content h2 {
+    font-size: 20px !important;
+    margin-top: 30px !important;
+  }
+
+  .document-content h3 {
+    font-size: 18px !important;
+  }
+
+  .document-content p,
+  .document-content li {
+    font-size: 14px !important;
+    line-height: 1.7 !important;
+  }
+
+  .document-content table {
+    font-size: 12px !important;
+    display: block !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  .document-content table th,
+  .document-content table td {
+    padding: 8px 6px !important;
+    white-space: nowrap !important;
+  }
+
+  /* ---- Blog Page ---- */
+  .blog-area {
+    padding: 60px 0 !important;
+  }
+
+  /* ---- RoadMap ---- */
+  .roadmap-area {
+    padding: 60px 0 !important;
+  }
+
+  .roadmap-content {
+    padding: 30px 18px 25px !important;
+  }
+
+  .roadmap-content .title {
+    font-size: 16px !important;
+  }
+
+  .roadmap-title {
+    font-size: 14px !important;
+  }
+
+  /* ---- Partners Grid ---- */
+  .partners-grid-inner {
+    padding: 18px !important;
+  }
+
+  /* ---- Tables (global responsive) ---- */
+  table {
+    display: block !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    max-width: 100% !important;
+  }
+
+  /* ---- Footer refinements ---- */
+  .footer-widget {
+    margin-bottom: 25px !important;
+  }
+
+  .footer-widget .fw-title {
+    font-size: 16px !important;
+  }
+
+  .footer-widget .list-wrap li a {
+    font-size: 13px !important;
+  }
+
+  .copyright-text p {
+    font-size: 12px !important;
+    text-align: center !important;
+  }
+
+  /* ---- Large background coin smaller ---- */
+  .large-bg-coin {
+    width: 280px !important;
+    opacity: 0.05 !important;
+  }
+
+  /* ---- Floating coins hidden ---- */
+  .coin-shape {
+    display: none !important;
+  }
+
+  /* ---- Scroll-to-top ---- */
+  .scroll-top {
+    bottom: 18px !important;
+    right: 14px !important;
+    width: 36px !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    font-size: 12px !important;
+  }
+
+  /* ---- Offcanvas / Side Panel ---- */
+  .extra-info {
+    width: 85vw !important;
+    max-width: 320px !important;
+  }
+
+  /* ---- Admin Card ---- */
+  .admin-card-new {
+    margin-top: 2rem !important;
+    margin-bottom: -2rem !important;
+  }
+}
+
+/* ========== SMALL PHONES (≤480px) ========== */
+@media (max-width: 480px) {
+
+  /* ---- Hero ---- */
+  .banner-area {
+    padding: 110px 0 50px !important;
+  }
+
+  .banner-content .title {
+    font-size: 24px !important;
+  }
+
+  .banner-content p {
+    font-size: 13px !important;
+  }
+
+  /* ---- Section titles tighter ---- */
+  .section-title .title {
+    font-size: 22px !important;
+  }
+
+  .section-title-two.section-title .title {
+    font-size: 20px !important;
+  }
+
+  /* ---- Contribution ---- */
+  .contribution-title .title {
+    font-size: 24px !important;
+  }
+
+  .contribution-title .title span {
+    font-size: 28px !important;
+  }
+
+  .progress-wrap .list-wrap li {
+    font-size: 11px !important;
+  }
+
+  /* ---- Feature Cards ---- */
+  .features-item {
+    padding: 18px 14px !important;
+  }
+
+  .features-content .title {
+    font-size: 16px !important;
+  }
+
+  /* ---- Chart ---- */
+  .chart-wrap .chart {
+    width: 220px !important;
+    height: 220px !important;
+  }
+
+  /* ---- FAQ ---- */
+  .faq-wrap .accordion-button {
+    font-size: 15px !important;
+    padding: 16px 45px 16px 14px !important;
+  }
+
+  .faq-wrap .accordion-body {
+    padding: 0 14px 20px !important;
+    font-size: 13px !important;
+  }
+
+  /* ---- Download ---- */
+  .download-btn-wrap {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .download-btn-wrap .download-btn {
+    display: block !important;
+    text-align: center !important;
+  }
+
+  .download-btn-wrap .download-btn img {
+    max-height: 40px !important;
+  }
+
+  /* ---- Breadcrumb ---- */
+  .breadcrumb-area,
+  .breadcrumb-bg {
+    padding: 110px 0 40px !important;
+  }
+
+  .breadcrumb-content .title {
+    font-size: 24px !important;
+  }
+
+  /* ---- Document Content (inner pages) ---- */
+  .document-content h1 {
+    font-size: 22px !important;
+  }
+
+  .document-content h2 {
+    font-size: 18px !important;
+  }
+
+  /* ---- Verify cards ---- */
+  .contact-info-item {
+    padding: 15px 12px !important;
+  }
+
+  .contact-info-item .content .title {
+    font-size: 15px !important;
+  }
+
+  /* ---- Contact / Document section ---- */
+  .document-form-wrap,
+  .document-wrap {
+    padding: 20px 12px !important;
+  }
+
+  .contact-form {
+    padding: 20px 12px !important;
+  }
+
+  /* ---- Buttons ---- */
+  .btn,
+  .margin-btn-new {
+    padding: 10px 18px !important;
+    font-size: 13px !important;
+  }
+
+  /* ---- Footer ---- */
+  .footer-top {
+    padding: 50px 0 15px !important;
+  }
+
+  /* ---- Large bg coin ---- */
+  .large-bg-coin {
+    width: 220px !important;
+  }
+
+  /* ---- Section titles br hide ---- */
+  .section-title .title br {
+    display: none !important;
+  }
+
+  /* ---- RoadMap ---- */
+  .roadmap-content {
+    padding: 25px 14px 20px !important;
+  }
+
+  .roadmap-content .title {
+    font-size: 15px !important;
+  }
+
+  /* ---- Inline-styled inner page overrides ---- */
+  /* Blog featured article */
+  .blog-area div[style*="padding: '40px'"],
+  div[style*="padding: 40px"] {
+    padding: 20px !important;
+  }
+
+  /* Help center FAQ items */
+  div[style*="padding: '25px 28px'"],
+  div[style*="padding: 25px 28px"] {
+    padding: 18px 14px !important;
+  }
+}
+
+/* ========== EXTRA SMALL PHONES (≤360px) ========== */
+@media (max-width: 360px) {
+
+  /* ---- Base font reduction ---- */
+  body {
+    font-size: 14px !important;
+  }
+
+  /* ---- Hero ---- */
+  .banner-content .title {
+    font-size: 22px !important;
+  }
+
+  .banner-content p {
+    font-size: 12px !important;
+  }
+
+  /* ---- Section titles ---- */
+  .section-title .title {
+    font-size: 20px !important;
+  }
+
+  .contribution-title .title {
+    font-size: 22px !important;
+  }
+
+  .contribution-title .title span {
+    font-size: 26px !important;
+  }
+
+  /* ---- Chart ---- */
+  .chart-wrap .chart {
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  /* ---- FAQ ---- */
+  .faq-wrap .accordion-button {
+    font-size: 14px !important;
+    padding: 14px 40px 14px 12px !important;
+  }
+
+  /* ---- Breadcrumb ---- */
+  .breadcrumb-content .title {
+    font-size: 22px !important;
+  }
+
+  /* ---- Contact info cards ---- */
+  .contact-info-item {
+    padding: 12px 10px !important;
+  }
+
+  /* ---- Buttons ---- */
+  .btn,
+  .margin-btn-new {
+    padding: 9px 14px !important;
+    font-size: 12px !important;
+  }
+
+  .input-new {
+    height: 38px !important;
+    font-size: 13px !important;
+  }
+
+  /* ---- Document content ---- */
+  .document-content h1 {
+    font-size: 20px !important;
+  }
+
+  .document-content h2 {
+    font-size: 17px !important;
+  }
+
+  .document-content p,
+  .document-content li {
+    font-size: 13px !important;
+  }
+
+  /* ---- Footer ---- */
+  .copyright-text p {
+    font-size: 11px !important;
+  }
+}

@@ -70,7 +70,7 @@ const PrivacyPolicy = () => {
                                     <li>Right to request deletion of your data (where technically feasible and legally permissible)</li>
                                     <li>Right to withdraw consent at any time</li>
                                 </ul>
-                                <p>To exercise any of these rights, please contact us at <strong>support@amero.io</strong>.</p>
+                                <p>To exercise any of these rights, please contact us at <strong>support@amerox.io</strong>.</p>
 
                                 <h2 style={{ color: '#d4af37', marginTop: '40px' }}>9. Children&apos;s Privacy</h2>
                                 <p>AMERO X services are not intended for individuals under the age of 18. We do not knowingly collect personal information from minors.</p>
@@ -81,7 +81,7 @@ const PrivacyPolicy = () => {
                                 <h2 style={{ color: '#d4af37', marginTop: '40px' }}>11. Contact Us</h2>
                                 <p>If you have any questions or concerns about this Privacy Policy, please contact us:</p>
                                 <ul>
-                                    <li><strong>Email:</strong> support@amero.io</li>
+                                    <li><strong>Email:</strong> support@amerox.io</li>
                                     <li><strong>Address:</strong> 71-75 Shelton Street, Covent Garden, London, United Kingdom</li>
                                 </ul>
                             </div>
